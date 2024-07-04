@@ -1,0 +1,46 @@
+2024-07-03 19:37:00: == Sync Started by User Command
+2024-07-03 19:37:00: ConnectCloned connected to file:///H:/dernSol
+2024-07-03 19:37:00: ConnectCloned connected to file:///H:/dernSol
+2024-07-03 19:37:00: ConnectCloned connected to file:///H:/dernSol
+2024-07-03 19:37:00: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-03 19:37:00: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-03 19:37:00: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-03 19:37:00: Ecrasement 'H:/dernSol/db.sqlite3' -> 'H:/01_Synchro/dernSol/db.sqlite3' (217,088)
+2024-07-03 19:37:00: Nouvelle Copie 'H:/dernSol/chat/static/chat/img/discussion intantanee.png' -> 'H:/01_Synchro/dernSol/chat/static/chat/img/discussion intantanee.png' (80,333)
+2024-07-03 19:37:00: Ecrasement 'H:/dernSol/.idea/workspace.xml' -> 'H:/01_Synchro/dernSol/.idea/workspace.xml' (21,715)
+2024-07-03 19:37:00: Nouvelle Copie 'H:/dernSol/chat/static/chat/img/groupes et canaux.png' -> 'H:/01_Synchro/dernSol/chat/static/chat/img/groupes et canaux.png' (73,358)
+2024-07-03 19:37:00: Nouvelle Copie 'H:/dernSol/chat/static/chat/img/securite confidentielite.png' -> 'H:/01_Synchro/dernSol/chat/static/chat/img/securite confidentielite.png' (153,504)
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /.idea
+2024-07-03 19:37:00: Ecrasement 'H:/dernSol/.git/index' -> 'H:/01_Synchro/dernSol/.git/index' (13,256)
+2024-07-03 19:37:00: Ecrasement 'H:/dernSol/chat/templates/chat/index.html' -> 'H:/01_Synchro/dernSol/chat/templates/chat/index.html' (4,062)
+2024-07-03 19:37:00: Nouvelle Copie 'H:/dernSol/.git/objects/15/e60641fd42ed1a6d212dec3cfc550417d2c574' -> 'H:/01_Synchro/dernSol/.git/objects/15/e60641fd42ed1a6d212dec3cfc550417d2c574' (315)
+2024-07-03 19:37:00: Nouvelle Copie 'H:/dernSol/.git/objects/0a/cd06b324dc3992134ef1941cea43f86b632371' -> 'H:/01_Synchro/dernSol/.git/objects/0a/cd06b324dc3992134ef1941cea43f86b632371' (463)
+2024-07-03 19:37:00: Création du dossier H:/01_Synchro/dernSol/.git/objects/7a
+2024-07-03 19:37:00: Création du dossier H:/01_Synchro/dernSol/.git/objects/52
+2024-07-03 19:37:00: Création du dossier H:/01_Synchro/dernSol/.git/objects/82
+2024-07-03 19:37:00: Nouvelle Copie 'H:/dernSol/.git/objects/3c/6f9957618746f2cedca38d38f4199f9872dec8' -> 'H:/01_Synchro/dernSol/.git/objects/3c/6f9957618746f2cedca38d38f4199f9872dec8' (79,736)
+2024-07-03 19:37:00: Nouvelle Copie 'H:/dernSol/.git/objects/52/2496c8b00501f181e65de00af45eec1304659d' -> 'H:/01_Synchro/dernSol/.git/objects/52/2496c8b00501f181e65de00af45eec1304659d' (73,002)
+2024-07-03 19:37:00: Création du dossier H:/01_Synchro/dernSol/.git/objects/a7
+2024-07-03 19:37:00: Création du dossier H:/01_Synchro/dernSol/.git/objects/d9
+2024-07-03 19:37:00: Nouvelle Copie 'H:/dernSol/.git/objects/7a/ed43e1b59adfbb79507ce070f9c106cb4613dc' -> 'H:/01_Synchro/dernSol/.git/objects/7a/ed43e1b59adfbb79507ce070f9c106cb4613dc' (106,654)
+2024-07-03 19:37:00: Nouvelle Copie 'H:/dernSol/.git/objects/82/1bfebef7254631390ec8fd9ff483bd298599d7' -> 'H:/01_Synchro/dernSol/.git/objects/82/1bfebef7254631390ec8fd9ff483bd298599d7' (163,950)
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /chat/static/chat/img
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /chat/templates/chat
+2024-07-03 19:37:00: Création du dossier H:/01_Synchro/dernSol/.git/objects/f7
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /.git/objects/15
+2024-07-03 19:37:00: Nouvelle Copie 'H:/dernSol/.git/objects/a7/047202864eaa2af6769c47ec650da82fa0389b' -> 'H:/01_Synchro/dernSol/.git/objects/a7/047202864eaa2af6769c47ec650da82fa0389b' (114)
+2024-07-03 19:37:00: Nouvelle Copie 'H:/dernSol/.git/objects/d9/55b02b7ed9d315a0ed32f1a398327180d54895' -> 'H:/01_Synchro/dernSol/.git/objects/d9/55b02b7ed9d315a0ed32f1a398327180d54895' (107)
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /.git/objects/0a
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /.git/objects/3c
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /.git/objects/52
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /.git/objects/7a
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /.git/objects/82
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /.git/objects/a7
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /.git/objects/d9
+2024-07-03 19:37:00: Nouvelle Copie 'H:/dernSol/.git/objects/f7/ab13f09b1d20dfd9e9ce1578e52d862992c7fa' -> 'H:/01_Synchro/dernSol/.git/objects/f7/ab13f09b1d20dfd9e9ce1578e52d862992c7fa' (153,288)
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /.git/objects/f7
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /.git/objects
+2024-07-03 19:37:00: Close Modified Folder (mod-time, acl): /.git
+2024-07-03 19:37:00: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-03 19:37:00: Sauvegarde du fichier d'état H:/01_Synchro/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-03 19:37:00: == Sync Complete. Time: 00:00:00, Speed: 0.00/s, Elements synchronisés : 22, Erreurs : 0
