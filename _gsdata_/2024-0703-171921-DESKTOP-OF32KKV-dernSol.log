@@ -1,0 +1,12 @@
+2024-07-03 17:19:21: -- Analysis Started by User Command
+2024-07-03 17:19:21: Gauche : Lecture du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-03 17:19:21: Gauche : State file does not exist: H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-03 17:19:22: Droite : Lecture du fichier d'état C:/Users/roadn/OneDrive/Python_bakup/_gsdata_/_file_state_v4._gs
+2024-07-03 17:19:22: Droite : State file does not exist: C:/Users/roadn/OneDrive/Python_bakup/_gsdata_/_file_state_v4._gs
+2024-07-03 17:19:22: Droite : Lecture du fichier d'état C:/Users/roadn/OneDrive/Python_bakup/der_sol et fusion avec le fichier d'état principal
+2024-07-03 17:19:24: Droite : Lecture du fichier d'état C:/Users/roadn/OneDrive/Python_bakup/derSol et fusion avec le fichier d'état principal
+2024-07-03 17:19:28: Droite : Lecture du fichier d'état C:/Users/roadn/OneDrive/Python_bakup/djg_IA et fusion avec le fichier d'état principal
+2024-07-03 17:19:32: Droite : Lecture du fichier d'état C:/Users/roadn/OneDrive/Python_bakup/mysite et fusion avec le fichier d'état principal
+2024-07-03 17:19:52: Changements : 76 974 (76 976), Conflits : 0, Heure de la Copie : 0, État de la Copie : 175 333, Erreurs : 0, All: 301525
+2024-07-03 17:19:52: Left to Right: Copy File: 10554 Delete File: 66358 Rename/Move File/Folder: 62 
+2024-07-03 17:19:52: -- Analysis Complete. Time 00:00:31, Speed: 2 483 files/s

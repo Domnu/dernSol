@@ -1,0 +1,48 @@
+/* Reset des marges et des paddings pour uniformiser le rendu sur tous les navigateurs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Police de caractères pour le corps de la page */
+    line-height: 1.6; /* Espacement entre les lignes */
+    padding: 20px; /* Padding autour du contenu pour éviter que ce ne soit trop collé aux bords de la fenêtre */
+    background: #a2c3c8; /* Couleur de fond légère pour le confort visuel */
+}
+
+.container {
+    max-width: 800px; /* Limite la largeur maximale du conteneur pour une meilleure lisibilité */
+    margin: auto; /* Centre le conteneur sur la page */
+    background: #fff; /* Fond blanc pour le conteneur principal */
+    padding: 20px; /* Espacement à l'intérieur du conteneur */
+    border-radius: 8px; /* Bords arrondis pour le conteneur */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Ombre subtile pour un effet de profondeur */
+}
+
+h1, h2 {
+    color: #333; /* Couleur foncée pour les titres, pour un contraste élevé avec l'arrière-plan */
+}
+
+img {
+    max-width: 100%; /* Assure que les images ne dépassent pas leur conteneur */
+    height: auto; /* Maintient le ratio des images */
+    border-radius: 5px; /* Bords arrondis pour les images */
+}
+
+.card {
+    background: #f8f8f8; /* Fond légèrement différent pour distinguer les cartes */
+    border: 1px solid #ddd; /* Bordure subtile pour les cartes */
+    margin-top: 10px; /* Espacement entre les cartes */
+    padding: 10px; /* Espacement à l'intérieur des cartes */
+    border-radius: 5px; /* Bords arrondis pour les cartes */
+}
+
+.card-body {
+    padding: 10px; /* Espacement à l'intérieur du corps de la carte */
+}
+
+.text-muted {
+    color: #666; /* Couleur gris foncé pour le texte moins important */
+}

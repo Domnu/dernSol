@@ -1,0 +1,107 @@
+<!-- navbar.html -->
+{% load static %}
+
+<style>
+    {% block css %}
+        .navbar-custom {
+            background-color: rgba(11, 56, 234, 0.99); /* Background for the navbar */
+        }
+
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            padding: 5px 15px; /* Padding par défaut */
+            font-size: 1rem; /* Taille du texte par défaut */
+        }
+
+        .navbar-toggler {
+            padding: 0.25rem 0.75rem; /* Padding par défaut du menu déroulant */
+        }
+
+        .navbar-logo {
+            height: 40px; /* Hauteur par défaut */
+            width: 160px; /* Largeur par défaut */
+        }
+
+        /* Règles spécifiques pour les petits écrans */
+        @media (max-width: 576px) {
+            .navbar-custom .navbar-brand,
+            .navbar-custom .nav-link {
+                padding: 5px 10px; /* Réduit le padding haut et bas */
+                font-size: 1.1rem; /* Réduit la taille du texte */
+            }
+
+            .navbar-toggler {
+                padding: 0 0.5rem; /* Réduit le padding du menu déroulant */
+            }
+
+            .navbar-logo {
+                height: 36px; /* Réduit la hauteur de l'image */
+                width: 4.8em; /* Ajuste la largeur automatiquement */
+                padding: 0 0 0 0;
+            }
+        }
+
+        .navbar-custom .nav-link {
+            border: 1px solid #968c8f; /* Border for nav items */
+            border-radius: 4px;
+            color: #fff; /* Text color for nav items */
+            margin: 0 5px;
+        }
+
+        .navbar-custom .nav-link:hover {
+            background-color: #808b95; /* Background color on hover */
+            color: #fff; /* Text color on hover */
+        }
+
+        .navbar-custom .nav-link.active {
+            background-color: #007bff; /* Background color for active nav item */
+            color: #fff; /* Text color for active nav item */
+        }
+    {% endblock css %}
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+
+        <div class="pb-0">
+            <a class="navbar-brand py-0" href="{% url 'chat:index' %}">
+                <img src="{% static 'chat/img/logo_chat_2.png' %}" alt="Chat Logo" class="navbar-logo">
+            </a>
+
+            <button class="navbar-toggler py-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="width: 35px; height: 35px; background-color: #fffb00"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link {% if request.resolver_match.url_name == 'artik:index' %}active{% endif %}"
+                       href="#">Accueil Site</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.resolver_match.url_name == 'index' %}active{% endif %}"
+                       aria-current="page" href="{% url 'chat:index' %}">Accueil Chat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.resolver_match.url_name == 'article_list' %}active{% endif %}"
+                       href="{% url 'chat:article_list' %}">Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.resolver_match.url_name == 'article_create' %}active{% endif %}"
+                       href="{% url 'chat:article_create' %}">Créer Article</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.resolver_match.url_name == 'signup' %}active{% endif %}"
+                       href="{% url 'chat:signup' %}">S'enregistrer</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Ajouter les scripts Bootstrap JS en bas de votre template base ou dans ce template si non inclus -->
+{#<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"#}
+{#        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"#}
+{#        crossorigin="anonymous"></script>#}

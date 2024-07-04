@@ -1,0 +1,113 @@
+{% extends "chat/base_generic.html" %}
+{% load static %}
+
+<!-- Insertion de déclarations css dans le body parent -->
+<style>
+    {% block css %}
+        body {
+            border-width: 1px;
+            border-color: darkblue;
+            background-image: url('{% static "chat/img/sous_bois.png" %}');
+        }
+
+        .merci_pour_votre_inscription {
+            overflow-wrap: break-word;
+            border: 5px solid #d8d0c7;
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+            font-style: italic;
+            padding: 7px;
+            background-color: rgb(239, 229, 211);
+        }
+
+        .inline-img {
+            width: 180px;
+            height: 180px;
+            float: left;
+            margin-right: 10px;  /* Espace entre l'image et le texte */
+        }
+
+        .bienvenue_sur{
+            margin: 10px 0 10px 0;
+            font-size: 140%;
+        }
+    {% endblock css %}
+</style>
+
+<!-- Insertion du titre de la page dans "blog/base_blog.html" -->
+{% block title %}Inscription au Chat{% endblock %}
+{% block page_title %}Inscription au Chat{% endblock %}
+
+<!-- Insertion main content in "blog/base_blog.html" -->
+{% block content %}
+    <main class="py-2 px-2 mt-3">
+        <div class="row"> <!-- start of bootstrap row with gap-2 -->
+
+            <!-- Début formulaire inscription -->
+            <div class="col-md-6 m-0 bg-light" style="border: 5px solid #d8d0c7;">
+                <div class="container">
+                    {% include 'chat/form_signup.html' %}
+                </div>
+            </div>
+
+            <div class="col-md-6 px-0" style="border: 5px solid #d8d0c7;">
+                <article class="p-1 border bg-light fs-5 fw-semibold">
+                    {# <h3 class="text-center">Merci pour votre inscription</h3> #}
+
+                    <div class="img-wrap">
+                        <div class="mb-2 merci_pour_votre_inscription">
+                            <div class="text-center bienvenue_sur">
+                                Bienvenue sur le Chat<br>
+                                <p style="font-size: x-large">Un Lieu de Connexion et de Partage</p>
+                            </div>
+                            <img src="{% static 'chat/img/img_page_signup.png' %}"
+                                 alt="sign-Up-Page avec décors féériques"
+                                 id="myImg"
+                                 class="inline-img">
+
+                            Merci de vous être inscrit sur notre plateforme de chat, un espace où chaque conversation et chaque interaction contribuent à tisser des liens plus forts au sein de notre communauté. Ici, nous valorisons l'échange, la convivialité, et l'ouverture d'esprit.
+
+                            Chaque message envoyé, chaque discussion partagée est une pierre ajoutée à l'édifice de la solidarité et de l'amitié. Notre objectif est de créer un environnement où chacun peut s'exprimer librement, partager ses expériences et apprendre des autres. Qu'il s'agisse de discuter de sujets de la vie quotidienne, de partager des passions ou de chercher du soutien, notre chat est conçu pour être un refuge de compréhension et de respect.
+
+                            Nous croyons que chaque individu a une histoire à raconter et des idées à partager. En ouvrant nos cœurs et nos esprits, nous pouvons découvrir des perspectives nouvelles et enrichissantes. Ce site de chat est dédié à toutes celles et ceux qui cherchent à se connecter, à échanger et à grandir ensemble.
+
+                            En vous inscrivant, vous faites partie intégrante de cette aventure humaine. Vous contribuez à créer un espace où la bienveillance et la solidarité sont les maîtres-mots. Nous sommes convaincus que grâce à votre participation active, ce chat deviendra un lieu d'épanouissement pour tous.
+                        </div>
+                    </div>
+                </article>
+
+                <!-- La Modale pour agrandir l'image -->
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="{% static 'chat/img/img_page_signup_1.png' %}" alt="image décorée avec formulaire signup"
+                             style="width:100%;max-width:600px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="aproposdcsite py-2  p-3 mt-3 rounded">
+        <section class="my-0">
+            <div class="display-6 text-center">Ouvrez les portes à la parole !</div>
+            <p class="fs-5 my-3">
+                L'objectif de ce Chat est de créer un espace où chacun peut s'exprimer librement, partager ses
+                expériences et ses
+                pensées les plus profondes.<br>
+                Participez en apportant vos suggestions et en contribuant à l'amélioration de ce site. Ensemble, nous
+                pouvons faire tant de choses en apportant vos opinions, votre savoir, vos arguments et vos éclairements.<br>
+                N'hésitez pas à explorer les articles, à les partager et à faire connaître ce site ! Chaque partage nous
+                rapprochera un peu plus de l'objectif commun.<br>
+                Merci de vous joindre à cette belle aventure !
+            </p>
+        </section>
+    </div>
+
+{% endblock %}
+<!-- Fin de l'insertion -->
+
+{% block sensibilisation %}
+
+{% endblock %}

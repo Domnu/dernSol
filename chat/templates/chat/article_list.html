@@ -1,0 +1,39 @@
+{% extends "chat/base_generic.html" %}
+{% load static %}
+
+{% block title %}Liste des Articles{% endblock %}
+
+{% block page_title %}Tous les Articles{% endblock %}
+
+    <style>
+        {% block css %}
+            body{
+                background-image: url("{% static 'chat/img/piles_journaux_1.png' %}");
+                padding: 10px 0 10px 0;
+                font-size: 130%;
+            }
+            .container{
+                {#background: url("{% static 'chat/img/piles_journaux_1.png' %}");#}
+                background-color:#736e6e;
+            }
+        {% endblock css %}
+    </style>
+
+{% block content %}
+{#<div class="container mt-0 pt-0">#}
+    <div class="bg-white text-center mt-0 mb-2">
+        <p class="text-black display-6">Articles publiés</p>
+    </div>
+    <div>
+        {% for article in article_list %}
+            <div class="card mt-2">
+                <div class="card-body">
+                    <h5 class="card-title">{{ article.title }}</h5>
+                    <p class="card-text">{{ article.body|truncatechars:150 }}</p>
+                    <a href="{% url 'chat:article_detail' pk=article.pk %}" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{#</div>#}
+{% endblock %}

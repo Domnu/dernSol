@@ -1,0 +1,82 @@
+{% extends "chat/base_generic.html" %}
+{% load static %}
+
+{% block title %}Accueil Chat{% endblock %}
+{% block page_title %}Accueil Chat{% endblock %}
+
+<style>
+    {% block css %}
+
+        body{
+            padding: 15px 7px ;
+            background: url('{% static 'chat/img/custom_background.png' %}') repeat center center;
+
+        }
+
+        .comment-create-container{
+            background: url('{% static 'chat/img/custom_background.png' %}') no-repeat center center;
+            background-size: cover;
+            padding: 0px 0;
+        }
+
+        .divcontner{
+            background: rgba(218, 224, 215, 0.9);
+            padding: 20px; border-radius: 8px;
+        }
+
+        img.img-feature{
+            width: 150px;
+            height: 100px;
+        }
+
+    {% endblock css %}
+</style>
+
+{% block content %}
+    <div class="comment-create-container">
+        <div class="container divcontner">
+            <h2 class="text-center" style="color: #333;">Bienvenue sur Votre Chat</h2>
+            <p class="text-center" style="font-size: 1.2em; color: #555;">La meilleure plateforme pour discuter et échanger avec des amis, des collègues et de nouvelles personnes intéressantes. Rejoignez notre communauté et commencez à discuter dès aujourd'hui !</p>
+
+            <div class="row mt-5">
+                <div class="col-md-4 text-center">
+                    <img src="{% static 'chat/img/feature1.png' %}" alt="Feature 1" class="img-feature img-fluid" style="border-radius: 50%;">
+                    <h4 class="mt-3" style="color: #333;">Discussions Instantanees</h4>
+                    <p style="color: #555;">Profitez de conversations en temps réel avec vos amis et collègues.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="{% static 'chat/img/feature2.png' %}" alt="Feature 2" class="img-feature img-fluid" style="border-radius: 50%;">
+                    <h4 class="mt-3" style="color: #333;">Groupes et Canaux</h4>
+                    <p style="color: #555;">Créez des groupes et des canaux pour des discussions thématiques ou professionnelles.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="{% static 'chat/img/feature3.png' %}" alt="Feature 3" class="img-feature img-fluid" style="border-radius: 50%;">
+                    <h4 class="mt-3" style="color: #333;">Sécurité et Confidentialité</h4>
+                    <p style="color: #555;">Vos conversations sont sécurisées et protégées avec les dernières technologies.</p>
+                </div>
+            </div>
+
+            <div class="mt-5 text-center">
+                <h3 style="color: #333;">Ce que disent nos utilisateurs</h3>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <blockquote class="blockquote">
+                            <p class="mb-0" style="color: #555;">"Une plateforme incroyable pour rester connecté avec mes amis et ma famille. J'adore les fonctionnalités de groupe et de canal."</p>
+                            <footer class="blockquote-footer">Jean Dupont</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6">
+                        <blockquote class="blockquote">
+                            <p class="mb-0" style="color: #555;">"La meilleure application de chat que j'ai utilisée. Sécurisée, rapide et très facile à utiliser. Je la recommande fortement !"</p>
+                            <footer class="blockquote-footer">Marie Durand</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 text-center">
+                <a href="{% url 'chat:signup' %}" class="btn btn-primary btn-lg" style="padding: 10px 20px; border-radius: 8px;">Rejoignez-nous maintenant</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

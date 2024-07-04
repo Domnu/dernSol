@@ -1,0 +1,134 @@
+2024-07-04 15:41:22: == Sync Started by User Command
+2024-07-04 15:41:22: ConnectCloned connected to file:///H:/dernSol
+2024-07-04 15:41:22: ConnectCloned connected to file:///H:/dernSol
+2024-07-04 15:41:22: ConnectCloned connected to file:///H:/dernSol
+2024-07-04 15:41:22: ConnectCloned connected to file:///~roadn/OneDrive/Python_bakup/dernSol
+2024-07-04 15:41:22: ConnectCloned connected to file:///~roadn/OneDrive/Python_bakup/dernSol
+2024-07-04 15:41:22: ConnectCloned connected to file:///~roadn/OneDrive/Python_bakup/dernSol
+2024-07-04 15:41:22: Ecrasement 'H:/dernSol/chat/templates/chat/comment_form.html' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/templates/chat/comment_form.html' (1,539)
+2024-07-04 15:41:22: Ecrasement 'H:/dernSol/01_Archiv_dernSol/tree_dernSol.txt' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/01_Archiv_dernSol/tree_dernSol.txt' (4,550)
+2024-07-04 15:41:22: Suppression du fichier C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/custom-background.png
+2024-07-04 15:41:22: Nouvelle Copie 'H:/dernSol/chat/static/chat/img/custom_background.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/custom_background.png' (438,368)
+2024-07-04 15:41:22: Nouvelle Copie 'H:/dernSol/chat/static/chat/img/feature1.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/feature1.png' (59,873)
+2024-07-04 15:41:22: Nouvelle Copie 'H:/dernSol/chat/static/chat/img/feature2.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/feature2.png' (61,984)
+2024-07-04 15:41:22: Ecrasement 'H:/dernSol/01_Archiv_dernSol/tree_dernSol.html' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/01_Archiv_dernSol/tree_dernSol.html' (4,589)
+2024-07-04 15:41:22: Nouvelle Copie 'H:/dernSol/chat/static/chat/img/feature3.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/feature3.png' (588,170)
+2024-07-04 15:41:22: Création du dossier C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img
+2024-07-04 15:41:22: Ecrasement 'H:/dernSol/chat/templates/chat/index.html' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/templates/chat/index.html' (4,065)
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/5f886aed-cb7c-4353-b19d-1b6ccbb2bd9c.webp -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/5f886aed-cb7c-4353-b19d-1b6ccbb2bd9c.webp
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/aine_ecrivant.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/aine_ecrivant.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/aine_ecrivant_01.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/aine_ecrivant_01.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/aines_oublies_01.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/aines_oublies_01.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/Ainé grabataire_02.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/Ainé grabataire_02.png
+2024-07-04 15:41:22: Ecrasement 'H:/dernSol/chat/templates/chat/signup.html' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/templates/chat/signup.html' (5,644)
+2024-07-04 15:41:22: Ecrasement 'H:/dernSol/.idea/workspace.xml' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.idea/workspace.xml' (17,113)
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/ainé_assis_sur_lit.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/ainé_assis_sur_lit.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/ainé_assis_sur_lit.webp -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/ainé_assis_sur_lit.webp
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/ainé_assis_sur_lit_01.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/ainé_assis_sur_lit_01.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/ainé_lit_banc.webp -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/ainé_lit_banc.webp
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/bandeau_01.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/bandeau_01.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/banner with subliminal letters.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/banner with subliminal letters.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/banner with subliminal letters_01.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/banner with subliminal letters_01.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/banner.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/banner.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/banner_01.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/banner_01.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/banner_1.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/banner_1.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/bg_article_form.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/bg_article_form.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/book_flowers.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/book_flowers.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/Coeur automne bois.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/Coeur automne bois.png
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/DALL·E 2024-06-06 09.22.38 - A beautiful background image for a chat website form page, featuring a soft, blurred gradient with shades of blue and white, giving a serene and profe.webp -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/DALL·E 2024-06-06 09.22.38 - A beautiful background image for a chat website form page, featuring a soft, blurred gradient with shades of blue and white, giving a serene and profe.webp
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/faceb.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/faceb.png
+2024-07-04 15:41:22: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/custom_background.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/custom_background.png' (438,368)
+2024-07-04 15:41:22: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/facebSanBg.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/facebSanBg.png
+2024-07-04 15:41:22: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/detail_article.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/detail_article.png' (730,193)
+2024-07-04 15:41:22: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/default_chat.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/default_chat.png' (153,584)
+2024-07-04 15:41:22: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/favic128.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/favic128.png' (9,686)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/favic16.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/favic16.png' (1,094)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/favic16.ico' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/favic16.ico' (1,150)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/favic256.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/favic256.png' (28,659)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/favic48.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/favic48.png' (2,801)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/favic32.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/favic32.png' (1,825)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/favic64.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/favic64.png' (3,978)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/feature1.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/feature1.png' (59,873)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/feature2.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/feature2.png' (61,984)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/feature3.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/feature3.png' (588,170)
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/Foret-a.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/Foret-a.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/instagram.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/instagram.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/instagramSansBg.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/instagramSansBg.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/logo_chat_1.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/logo_chat_1.png
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/img_page_signup.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/img_page_signup.png' (800,641)
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/main vers cuople ainés.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/main vers cuople ainés.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/main_eau_01.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/main_eau_01.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/main_eau_02.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/main_eau_02.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/mangrove_1.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/mangrove_1.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/mangrove_2.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/mangrove_2.png
+2024-07-04 15:41:23: > Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/manuscrit_plume.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/manuscrit_plume.png' (1,486,644)
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/messages_in_ether_1.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/messages_in_ether_1.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/messages_in_ether_11.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/messages_in_ether_11.png
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/img_page_signup_1.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/img_page_signup_1.png' (1,042,562)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/logo_chat_2.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/logo_chat_2.png' (175,459)
+2024-07-04 15:41:23: < Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/manuscrit_plume.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/manuscrit_plume.png' (1,486,644)
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/messages_in_ether_2.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/messages_in_ether_2.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/nuee_articles_1.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/nuee_articles_1.png
+2024-07-04 15:41:23: > Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/piles_journaux_1.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/piles_journaux_1.png' (1,996,374)
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/repli_1024.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/repli_1024.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/repli_300.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/repli_300.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/s_01.svg -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/s_01.svg
+2024-07-04 15:41:23: < Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/piles_journaux_1.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/piles_journaux_1.png' (1,996,374)
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/s_02.gif -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/s_02.gif
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/s_03.gif -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/s_03.gif
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/s_04.gif -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/s_04.gif
+2024-07-04 15:41:23: > Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/sous_bois.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/sous_bois.png' (3,721,613)
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/sousbois_lune_01.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/sousbois_lune_01.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/sousbois_lune_02.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/sousbois_lune_02.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/sulit_banc.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/sulit_banc.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/sulit_banc_a.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/sulit_banc_a.png
+2024-07-04 15:41:23: < Nouvelle Copie 'H:/dernSol/chat/static/chat/No_used_img/sous_bois.png' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/sous_bois.png' (3,721,613)
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/twit.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/twit.png
+2024-07-04 15:41:23: Déplacement C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/img/twitSanBg.png -> C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/No_used_img/twitSanBg.png
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /01_Archiv_dernSol
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/.git/objects/0a/cd06b324dc3992134ef1941cea43f86b632371' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/0a/cd06b324dc3992134ef1941cea43f86b632371' (463)
+2024-07-04 15:41:23: Ecrasement 'H:/dernSol/db.sqlite3' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/db.sqlite3' (217,088)
+2024-07-04 15:41:23: Ecrasement 'H:/dernSol/.git/index' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/index' (13,776)
+2024-07-04 15:41:23: Création du dossier C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/52
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/.git/objects/15/e60641fd42ed1a6d212dec3cfc550417d2c574' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/15/e60641fd42ed1a6d212dec3cfc550417d2c574' (315)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/.git/objects/3c/6f9957618746f2cedca38d38f4199f9872dec8' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/3c/6f9957618746f2cedca38d38f4199f9872dec8' (79,736)
+2024-07-04 15:41:23: Création du dossier C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/7a
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/.git/objects/52/2496c8b00501f181e65de00af45eec1304659d' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/52/2496c8b00501f181e65de00af45eec1304659d' (73,002)
+2024-07-04 15:41:23: Création du dossier C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/81
+2024-07-04 15:41:23: Création du dossier C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/82
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/.git/objects/67/e2054e7527b3d2718203c806b3c7cf039a9b9b' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/67/e2054e7527b3d2718203c806b3c7cf039a9b9b' (588,345)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/.git/objects/7a/ed43e1b59adfbb79507ce070f9c106cb4613dc' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/7a/ed43e1b59adfbb79507ce070f9c106cb4613dc' (106,654)
+2024-07-04 15:41:23: Création du dossier C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/a7
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/.git/objects/81/7c555c63a8656c9c43e2b3a96e7b15f3710c7b' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/81/7c555c63a8656c9c43e2b3a96e7b15f3710c7b' (59,366)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/.git/objects/82/1bfebef7254631390ec8fd9ff483bd298599d7' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/82/1bfebef7254631390ec8fd9ff483bd298599d7' (163,950)
+2024-07-04 15:41:23: Création du dossier C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/d9
+2024-07-04 15:41:23: Création du dossier C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/e0
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/.git/objects/a7/047202864eaa2af6769c47ec650da82fa0389b' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/a7/047202864eaa2af6769c47ec650da82fa0389b' (114)
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/.git/objects/b3/9dfddc9d0fe4a223e2958eeb8a8faff7b28bef' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/b3/9dfddc9d0fe4a223e2958eeb8a8faff7b28bef' (80,810)
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /chat/templates/chat
+2024-07-04 15:41:23: Création du dossier C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/f7
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.idea
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/.git/objects/d9/55b02b7ed9d315a0ed32f1a398327180d54895' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/d9/55b02b7ed9d315a0ed32f1a398327180d54895' (107)
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /chat/static/chat/img
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/.git/objects/e0/c7b8c5ed24f7bc93c67b6c506459f1f762c09f' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/e0/c7b8c5ed24f7bc93c67b6c506459f1f762c09f' (61,420)
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /chat/static/chat/No_used_img
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects/0a
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects/15
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects/3c
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects/52
+2024-07-04 15:41:23: Nouvelle Copie 'H:/dernSol/.git/objects/f7/ab13f09b1d20dfd9e9ce1578e52d862992c7fa' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/f7/ab13f09b1d20dfd9e9ce1578e52d862992c7fa' (153,288)
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects/67
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects/7a
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects/81
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects/82
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects/a7
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects/b3
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects/d9
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects/e0
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /chat/static/chat
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects/f7
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git/objects
+2024-07-04 15:41:23: Close Modified Folder (mod-time, acl): /.git
+2024-07-04 15:41:23: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-04 15:41:23: Sauvegarde du fichier d'état C:/Users/roadn/OneDrive/Python_bakup/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-04 15:41:23: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, Elements synchronisés : 149, Erreurs : 0
