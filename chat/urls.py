@@ -1,6 +1,8 @@
 from django.urls import path
 from .views import Index, signup, ArticleListView, ArticleDetailView, ArticleCreateView, CommentCreateView
 
+app_name = 'chat'
+
 urlpatterns = [
     path('', Index, name='index'),
     path('signup/', signup, name='signup'),
