@@ -23,6 +23,11 @@ columns = [description[0] for description in cursor.description]
 # Fermeture de la connexion à la base de données
 conn.close()
 
+# Vérification des résultats obtenus
+print("Colonnes :", columns)
+print("Nombre de lignes récupérées :", len(rows))
+print("Premières lignes récupérées :", rows[:5])
+
 # Création d'un DataFrame pandas à partir des résultats
 df = pd.DataFrame(rows, columns=columns)
 
