@@ -1,0 +1,142 @@
+2024-07-07 18:12:53: == Sync Started by User Command
+2024-07-07 18:12:53: ConnectCloned connected to file:///H:/dernSol
+2024-07-07 18:12:53: ConnectCloned connected to file:///H:/dernSol
+2024-07-07 18:12:53: ConnectCloned connected to file:///H:/dernSol
+2024-07-07 18:12:53: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-07 18:12:53: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-07 18:12:53: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.git/COMMIT_EDITMSG' -> 'H:/01_Synchro/dernSol/.git/COMMIT_EDITMSG' (467)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/chat/__pycache__/forms.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/chat/__pycache__/forms.cpython-312.pyc' (1,462)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.idea/workspace.xml' -> 'H:/01_Synchro/dernSol/.idea/workspace.xml' (28,019)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/chat/__pycache__/models.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/chat/__pycache__/models.cpython-312.pyc' (2,467)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/chat/forms.py' -> 'H:/01_Synchro/dernSol/chat/forms.py' (601)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/chat/__pycache__/urls.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/chat/__pycache__/urls.cpython-312.pyc' (1,028)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/chat/__pycache__/views.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/chat/__pycache__/views.cpython-312.pyc' (4,573)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/chat/models.py' -> 'H:/01_Synchro/dernSol/chat/models.py' (1,199)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/chat/views.py' -> 'H:/01_Synchro/dernSol/chat/views.py' (2,339)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/chat/urls.py' -> 'H:/01_Synchro/dernSol/chat/urls.py' (686)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/chat/templates/chat/article_form.html' -> 'H:/01_Synchro/dernSol/chat/templates/chat/article_form.html' (4,222)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/chat/templates/chat/article_form_GPT.html' -> 'H:/01_Synchro/dernSol/chat/templates/chat/article_form_GPT.html' (3,058)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/chat/templates/chat/article_form_Orig.html' -> 'H:/01_Synchro/dernSol/chat/templates/chat/article_form_Orig.html' (1,770)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/chat/templates/chat/article_detail.html' -> 'H:/01_Synchro/dernSol/chat/templates/chat/article_detail.html' (2,743)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/chat/views_Orig.py' -> 'H:/01_Synchro/dernSol/chat/views_Orig.py' (1,836)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/chat/templates/chat/comment_form_Orig.html' -> 'H:/01_Synchro/dernSol/chat/templates/chat/comment_form_Orig.html' (1,539)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.git/index' -> 'H:/01_Synchro/dernSol/.git/index' (11,799)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.git/logs/HEAD' -> 'H:/01_Synchro/dernSol/.git/logs/HEAD' (2,176)
+2024-07-07 18:12:53: Création du dossier H:/01_Synchro/dernSol/.git/objects/14
+2024-07-07 18:12:53: Création du dossier H:/01_Synchro/dernSol/.git/objects/17
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/0d/975f9911ec0eb9b67abc543d69e67fda0de14f' -> 'H:/01_Synchro/dernSol/.git/objects/0d/975f9911ec0eb9b67abc543d69e67fda0de14f' (412)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/chat/templates/chat/comment_form.html' -> 'H:/01_Synchro/dernSol/chat/templates/chat/comment_form.html' (1,442)
+2024-07-07 18:12:53: Création du dossier H:/01_Synchro/dernSol/.git/objects/1a
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/14/5b46766382fdc566f390858e6c29f809a236bb' -> 'H:/01_Synchro/dernSol/.git/objects/14/5b46766382fdc566f390858e6c29f809a236bb' (107)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/1a/d9f51553cd0958232cd7d69734ac5ff0729245' -> 'H:/01_Synchro/dernSol/.git/objects/1a/d9f51553cd0958232cd7d69734ac5ff0729245' (484)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/17/87608cb272deb60ada41abf5e67914b6f84fca' -> 'H:/01_Synchro/dernSol/.git/objects/17/87608cb272deb60ada41abf5e67914b6f84fca' (128,764)
+2024-07-07 18:12:53: Création du dossier H:/01_Synchro/dernSol/.git/objects/21
+2024-07-07 18:12:53: Création du dossier H:/01_Synchro/dernSol/.git/objects/36
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/1d/37df19507117338e854e553f34e9bbc5f79ae4' -> 'H:/01_Synchro/dernSol/.git/objects/1d/37df19507117338e854e553f34e9bbc5f79ae4' (234,022)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/36/d31f86c77c8bf9d0d240eaaf8a6a1f45bcb330' -> 'H:/01_Synchro/dernSol/.git/objects/36/d31f86c77c8bf9d0d240eaaf8a6a1f45bcb330' (84)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/21/0b8ad799e4e58db1a2d9debe79d829a20e0f78' -> 'H:/01_Synchro/dernSol/.git/objects/21/0b8ad799e4e58db1a2d9debe79d829a20e0f78' (266)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/2f/0ac1a83be48aa2b694febf7625f8dc62eb9d96' -> 'H:/01_Synchro/dernSol/.git/objects/2f/0ac1a83be48aa2b694febf7625f8dc62eb9d96' (1,468)
+2024-07-07 18:12:53: Création du dossier H:/01_Synchro/dernSol/.git/objects/4a
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/2f/6f698c250c1662e1ab0fc790d8a654b8706a84' -> 'H:/01_Synchro/dernSol/.git/objects/2f/6f698c250c1662e1ab0fc790d8a654b8706a84' (362)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/3f/2bd759d5e4904fd019032f5ab7b52df87332eb' -> 'H:/01_Synchro/dernSol/.git/objects/3f/2bd759d5e4904fd019032f5ab7b52df87332eb' (776)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/3a/755d73bae049e62f108e0c5353d428fafbeb57' -> 'H:/01_Synchro/dernSol/.git/objects/3a/755d73bae049e62f108e0c5353d428fafbeb57' (82)
+2024-07-07 18:12:53: Création du dossier H:/01_Synchro/dernSol/.git/objects/60
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/4a/7f6c46993ddddd41e6e5ad6d9b9ec709bb1694' -> 'H:/01_Synchro/dernSol/.git/objects/4a/7f6c46993ddddd41e6e5ad6d9b9ec709bb1694' (373)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/59/484080c870108158535179cdae477a9178eaac' -> 'H:/01_Synchro/dernSol/.git/objects/59/484080c870108158535179cdae477a9178eaac' (145)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.git/objects/5e/681c7bb8b75e6028e95222fa2b59ebcc63a495' -> 'H:/01_Synchro/dernSol/.git/objects/5e/681c7bb8b75e6028e95222fa2b59ebcc63a495' (408)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/60/90fd1a110d13d4f8a0310e1685d4a966c6a80a' -> 'H:/01_Synchro/dernSol/.git/objects/60/90fd1a110d13d4f8a0310e1685d4a966c6a80a' (55)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.git/objects/63/3b4dc118ce8fcdea64b07c99014c2bcd5a050d' -> 'H:/01_Synchro/dernSol/.git/objects/63/3b4dc118ce8fcdea64b07c99014c2bcd5a050d' (747)
+2024-07-07 18:12:53: Création du dossier H:/01_Synchro/dernSol/.git/objects/78
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/6b/c8abafb26d3ba916127bbb1df8b4d01cb6cb07' -> 'H:/01_Synchro/dernSol/.git/objects/6b/c8abafb26d3ba916127bbb1df8b4d01cb6cb07' (415)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/6c/2ab45c28abeb176596835b11ead67bfbc955f6' -> 'H:/01_Synchro/dernSol/.git/objects/6c/2ab45c28abeb176596835b11ead67bfbc955f6' (408)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/78/aad103dde4fdd03e69d4252f20b5910a9d45cb' -> 'H:/01_Synchro/dernSol/.git/objects/78/aad103dde4fdd03e69d4252f20b5910a9d45cb' (123,768)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.git/objects/7b/89f9c9ad5946d792db0ff9dd78c50bf1facac7' -> 'H:/01_Synchro/dernSol/.git/objects/7b/89f9c9ad5946d792db0ff9dd78c50bf1facac7' (607)
+2024-07-07 18:12:53: Création du dossier H:/01_Synchro/dernSol/.git/objects/92
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/8f/d46d2181381703a45e55e95bdc54e85fd43cb3' -> 'H:/01_Synchro/dernSol/.git/objects/8f/d46d2181381703a45e55e95bdc54e85fd43cb3' (319)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/83/d6703543efee10c8e94d1ca246434196a61617' -> 'H:/01_Synchro/dernSol/.git/objects/83/d6703543efee10c8e94d1ca246434196a61617' (417)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/92/85d6693aadf6911007884c5a0623c7c137ac62' -> 'H:/01_Synchro/dernSol/.git/objects/92/85d6693aadf6911007884c5a0623c7c137ac62' (1,059)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/99/570c4f2896245694139b3be06a96670007ff1c' -> 'H:/01_Synchro/dernSol/.git/objects/99/570c4f2896245694139b3be06a96670007ff1c' (50)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/97/122ab27607c8ac1e6bfebd7dcc422ae2f44175' -> 'H:/01_Synchro/dernSol/.git/objects/97/122ab27607c8ac1e6bfebd7dcc422ae2f44175' (192,255)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/9d/2ecac51893021ba95dc8964482f09257acd425' -> 'H:/01_Synchro/dernSol/.git/objects/9d/2ecac51893021ba95dc8964482f09257acd425' (47)
+2024-07-07 18:12:53: Création du dossier H:/01_Synchro/dernSol/.git/objects/c2
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/b2/87af71c4ce988d8de6d110f4adde11e99125d8' -> 'H:/01_Synchro/dernSol/.git/objects/b2/87af71c4ce988d8de6d110f4adde11e99125d8' (404)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.git/objects/a4/525f63037fe36c7ff2d5de8ce81b50925a6b06' -> 'H:/01_Synchro/dernSol/.git/objects/a4/525f63037fe36c7ff2d5de8ce81b50925a6b06' (635)
+2024-07-07 18:12:53: Création du dossier H:/01_Synchro/dernSol/.git/objects/ca
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/b8/8f508d393113cc6d3f456be34bfc008b6e1d05' -> 'H:/01_Synchro/dernSol/.git/objects/b8/8f508d393113cc6d3f456be34bfc008b6e1d05' (372)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/c2/a6d2a2f77ff8e69ab849404aa2ed3b7193c84e' -> 'H:/01_Synchro/dernSol/.git/objects/c2/a6d2a2f77ff8e69ab849404aa2ed3b7193c84e' (118)
+2024-07-07 18:12:53: Création du dossier H:/01_Synchro/dernSol/.git/objects/dd
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/ca/fae28f7f3b4df90beba19ad94ba0a8253cdaa4' -> 'H:/01_Synchro/dernSol/.git/objects/ca/fae28f7f3b4df90beba19ad94ba0a8253cdaa4' (336)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.git/objects/d6/e45788c39bd480d262207a1ebcc219a7ab9b9e' -> 'H:/01_Synchro/dernSol/.git/objects/d6/e45788c39bd480d262207a1ebcc219a7ab9b9e' (684)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/d7/32ddf6887b227d40215ee25ff87c1d9179b5bb' -> 'H:/01_Synchro/dernSol/.git/objects/d7/32ddf6887b227d40215ee25ff87c1d9179b5bb' (319)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/dd/51fb433ab55283c4c2ea03b3aa784314d28aa6' -> 'H:/01_Synchro/dernSol/.git/objects/dd/51fb433ab55283c4c2ea03b3aa784314d28aa6' (429)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/dd/5be95931fdf1710ece64910d1a5662de7128c2' -> 'H:/01_Synchro/dernSol/.git/objects/dd/5be95931fdf1710ece64910d1a5662de7128c2' (592)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391' -> 'H:/01_Synchro/dernSol/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391' (15)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/ed/d4bc883c4c75892587a335a3dae8b958be8e36' -> 'H:/01_Synchro/dernSol/.git/objects/ed/d4bc883c4c75892587a335a3dae8b958be8e36' (9,645)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/ed/d4da8a51a5efcefe39e5b65d438b6c3556f420' -> 'H:/01_Synchro/dernSol/.git/objects/ed/d4da8a51a5efcefe39e5b65d438b6c3556f420' (582)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/fa/f326b22d25d848993f88ddc76c9ea3ce1c4f7e' -> 'H:/01_Synchro/dernSol/.git/objects/fa/f326b22d25d848993f88ddc76c9ea3ce1c4f7e' (485)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/.git/objects/ee/324f30c93373331a71a2bb27617ddd11105d6b' -> 'H:/01_Synchro/dernSol/.git/objects/ee/324f30c93373331a71a2bb27617ddd11105d6b' (11,219)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.git/logs/refs/heads/master' -> 'H:/01_Synchro/dernSol/.git/logs/refs/heads/master' (2,176)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.git/refs/remotes/origin/master' -> 'H:/01_Synchro/dernSol/.git/refs/remotes/origin/master' (41)
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.git/refs/heads/master' -> 'H:/01_Synchro/dernSol/.git/refs/heads/master' (41)
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.idea
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /chat/__pycache__
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/0d
+2024-07-07 18:12:53: Création du dossier H:/01_Synchro/dernSol/templates/registration
+2024-07-07 18:12:53: Déplacement H:/01_Synchro/dernSol/chat/templates/registratioj/login_extend.html -> H:/01_Synchro/dernSol/templates/registration/login_extend.html
+2024-07-07 18:12:53: Déplacement H:/01_Synchro/dernSol/chat/templates/registratioj/login.html -> H:/01_Synchro/dernSol/templates/registration/login_ToDel.html
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /chat/templates/chat
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/14
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/.git/logs/refs/remotes/origin/master' -> 'H:/01_Synchro/dernSol/.git/logs/refs/remotes/origin/master' (1,036)
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/1a
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/17
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/1d
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/21
+2024-07-07 18:12:53: Ecrasement 'H:/dernSol/db.sqlite3' -> 'H:/01_Synchro/dernSol/db.sqlite3' (208,896)
+2024-07-07 18:12:53: Nouvelle Copie 'H:/dernSol/templates/registration/login.html' -> 'H:/01_Synchro/dernSol/templates/registration/login.html' (837)
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/36
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/2f
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/3f
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/3a
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/4a
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/59
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/5e
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/60
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/63
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/6b
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/6c
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/78
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/7b
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/8f
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/83
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/92
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/99
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/97
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/9d
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/b2
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/a4
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/b8
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/c2
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/ca
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/d6
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/d7
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/dd
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/e6
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/ed
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/fa
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects/ee
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/logs/refs/heads
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/refs/remotes/origin
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/refs/heads
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/logs/refs/remotes/origin
+2024-07-07 18:12:53: Suppression du dossier H:/01_Synchro/dernSol/chat/templates/registratioj
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /templates/registration
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/objects
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /chat/templates
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /templates
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /chat
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git/logs
+2024-07-07 18:12:53: Close Modified Folder (mod-time, acl): /.git
+2024-07-07 18:12:54: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-07 18:12:54: Sauvegarde du fichier d'état H:/01_Synchro/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-07 18:12:54: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, Elements synchronisés : 83, Erreurs : 0
