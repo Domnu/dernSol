@@ -7,28 +7,33 @@ from django.views.generic import ListView, DetailView, CreateView
 from .forms import ArticleForm, CommentForm
 from .models import Article, Comment
 
-class BaseView(LoginRequiredMixin):
-    model = Article
-    template_name = None
 
 def Index(request):
     return render(request, 'chat/index.html')
 
+
 def signup(request):
     return render(request, 'chat/signup.html')
 
-class ArticleListView(BaseView, ListView):
+
+class ArticleListView(ListView):
+    model = Article
     template_name = 'chat/article_list.html'
 
-class ArticleDetailView(BaseView, DetailView):
+
+class ArticleDetailView(DetailView):
+    model = Article
     template_name = 'chat/article_detail.html'
+    context_object_name = 'article'
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['comments'] = Comment.objects.filter(article=self.object)
         return context
 
+
 class ArticleCreateView(LoginRequiredMixin, CreateView):
+    model = Article
     form_class = ArticleForm
     template_name = 'chat/article_form.html'
 
@@ -36,7 +41,8 @@ class ArticleCreateView(LoginRequiredMixin, CreateView):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
-class CommentCreateView(LoginRequiredMixin, CreateView):
+
+class CommentCreateView(CreateView):
     model = Comment
     form_class = CommentForm
     template_name = 'chat/comment_form.html'
@@ -55,6 +61,7 @@ class CommentCreateView(LoginRequiredMixin, CreateView):
         article_id = self.kwargs.get('pk')
         context['article'] = get_object_or_404(Article, pk=article_id)
         return context
+
 
 @require_POST
 def add_comment(request, pk):
