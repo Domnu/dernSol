@@ -1,0 +1,62 @@
+{% extends "chat/base_generic.html" %}
+{% load static %}
+
+{% block title %}Créer un Article{% endblock %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h2>Créer un Article</h2>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="id_title" class="form-label">Titre</label>
+                <input type="text" name="title" maxlength="200" class="form-control" id="id_title" required>
+            </div>
+            <div class="mb-3">
+                <label for="id_body" class="form-label">Contenu</label>
+                <textarea name="body" class="form-control" id="id_body" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="id_image" class="form-label fw-bolder">Ajoutez votre Photo (facultatif)</label>
+                <input type="file" name="image" class="form-control" id="id_image">
+            </div>
+            <div class="mb-3">
+                <label for="id_paste_area" class="form-label fw-bolder">Collez votre Photo ici</label>
+                <textarea class="form-control" id="id_paste_area" placeholder="Collez votre image ici"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enregistrer</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('id_paste_area').addEventListener('paste', function(event) {
+            var items = (event.clipboardData || event.originalEvent.clipboardData).items;
+            for (var index in items) {
+                var item = items[index];
+                if (item.kind === 'file' && item.type.startsWith('image/')) {
+                    var blob = item.getAsFile();
+                    var reader = new FileReader();
+                    reader.onload = function(event) {
+                        var dataUrl = event.target.result;
+                        var imageElement = document.createElement('img');
+                        imageElement.src = dataUrl;
+                        imageElement.style.maxWidth = '100%';
+                        document.getElementById('id_paste_area').parentNode.appendChild(imageElement);
+
+                        // Convert the DataURL to a Blob and append it to the file input
+                        fetch(dataUrl)
+                            .then(res => res.blob())
+                            .then(blob => {
+                                var fileInput = document.getElementById('id_image');
+                                var dataTransfer = new DataTransfer();
+                                var file = new File([blob], 'pasted_image.png', { type: blob.type });
+                                dataTransfer.items.add(file);
+                                fileInput.files = dataTransfer.files;
+                            });
+                    };
+                    reader.readAsDataURL(blob);
+                }
+            }
+        });
+    </script>
+{% endblock %}
