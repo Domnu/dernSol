@@ -1,5 +1,7 @@
 from django.urls import path
-from .views import Index, signup, ArticleListView, ArticleDetailView, ArticleCreateView, CommentCreateView, add_comment, custom_404
+from .views import (Index, signup, ArticleListView, ArticleDetailView,
+                    ArticleCreateView, CommentCreateView, add_comment, )
+from .views import custom_page_not_found
 
 app_name = 'chat'
 
@@ -13,4 +15,4 @@ urlpatterns = [
     path('articles/<int:pk>/add_comment/', add_comment, name='add_comment'),
 ]
 
-handler404 = 'chat.views.custom_404'
+handler404 = custom_page_not_found

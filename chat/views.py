@@ -1,4 +1,5 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.http import Http404
 from django.shortcuts import get_object_or_404, render, redirect
 from django.urls import reverse
 from django.views.decorators.http import require_POST
@@ -6,6 +7,10 @@ from django.views.generic import ListView, DetailView, CreateView
 
 from .forms import ArticleForm, CommentForm
 from .models import Article, Comment
+
+
+def custom_page_not_found(request, exception):
+    return render(request, 'chat/404.html', status=404)
 
 
 def Index(request):
@@ -26,14 +31,16 @@ class ArticleDetailView(DetailView):
     template_name = 'chat/article_detail.html'
     context_object_name = 'article'
 
+    def get_object(self, queryset=None):
+        obj = super().get_object(queryset=queryset)
+        if not obj:
+            raise Http404("Article not found")
+        return obj
+
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['comments'] = Comment.objects.filter(article=self.object)
         return context
-
-    def get_object(self):
-        pk = self.kwargs.get("pk")
-        return get_object_or_404(Article, pk=pk)
 
 
 class ArticleCreateView(LoginRequiredMixin, CreateView):
@@ -77,10 +84,3 @@ def add_comment(request, pk):
         comment.author = request.user
         comment.save()
     return redirect('chat:article_detail', pk=article.pk)
-
-
-from django.shortcuts import render
-
-
-def custom_404(request, exception):
-    return render(request, 'chat/404.html', status=404)
