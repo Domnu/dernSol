@@ -31,6 +31,10 @@ class ArticleDetailView(DetailView):
         context['comments'] = Comment.objects.filter(article=self.object)
         return context
 
+    def get_object(self):
+        pk = self.kwargs.get("pk")
+        return get_object_or_404(Article, pk=pk)
+
 
 class ArticleCreateView(LoginRequiredMixin, CreateView):
     model = Article
@@ -73,3 +77,10 @@ def add_comment(request, pk):
         comment.author = request.user
         comment.save()
     return redirect('chat:article_detail', pk=article.pk)
+
+
+from django.shortcuts import render
+
+
+def custom_404(request, exception):
+    return render(request, 'chat/404.html', status=404)

@@ -1,0 +1,53 @@
+2024-07-07 20:15:04: == Sync Started by User Command
+2024-07-07 20:15:05: ConnectCloned connected to file:///H:/dernSol
+2024-07-07 20:15:05: ConnectCloned connected to file:///H:/dernSol
+2024-07-07 20:15:05: ConnectCloned connected to file:///H:/dernSol
+2024-07-07 20:15:05: ConnectCloned connected to file:///~roadn/OneDrive/Python_bakup/dernSol
+2024-07-07 20:15:05: ConnectCloned connected to file:///~roadn/OneDrive/Python_bakup/dernSol
+2024-07-07 20:15:05: ConnectCloned connected to file:///~roadn/OneDrive/Python_bakup/dernSol
+2024-07-07 20:15:05: Ecrasement 'H:/dernSol/.git/COMMIT_EDITMSG' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/COMMIT_EDITMSG' (467)
+2024-07-07 20:15:05: Nouvelle Copie 'H:/dernSol/chat/static/chat/css/article_detail.css' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/css/article_detail.css' (1,542)
+2024-07-07 20:15:05: Ecrasement 'H:/dernSol/.idea/workspace.xml' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.idea/workspace.xml' (29,275)
+2024-07-07 20:15:05: Nouvelle Copie 'H:/dernSol/chat/templates/chat/article_detail_1.html' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/templates/chat/article_detail_1.html' (2,743)
+2024-07-07 20:15:05: Ecrasement 'H:/dernSol/.git/index' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/index' (11,884)
+2024-07-07 20:15:05: Ecrasement 'H:/dernSol/chat/templates/chat/article_detail.html' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/templates/chat/article_detail.html' (2,253)
+2024-07-07 20:15:05: Ecrasement 'H:/dernSol/.git/logs/HEAD' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/logs/HEAD' (2,578)
+2024-07-07 20:15:05: Création du dossier C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/12
+2024-07-07 20:15:05: Ecrasement 'H:/dernSol/chat/templates/chat/base_generic.html' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/templates/chat/base_generic.html' (2,191)
+2024-07-07 20:15:05: Nouvelle Copie 'H:/dernSol/.git/objects/12/36a050743a4e639ddc8f1966278bb10ea47f5d' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/12/36a050743a4e639ddc8f1966278bb10ea47f5d' (3,469)
+2024-07-07 20:15:05: Ecrasement 'H:/dernSol/.git/objects/17/7774d5966b7b1847da3aab3eaed2922713a077' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/17/7774d5966b7b1847da3aab3eaed2922713a077' (908)
+2024-07-07 20:15:05: Nouvelle Copie 'H:/dernSol/.git/objects/29/8f3c6772d11d6ef395b6778c8dadf68f9138d8' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/29/8f3c6772d11d6ef395b6778c8dadf68f9138d8' (405)
+2024-07-07 20:15:05: Nouvelle Copie 'H:/dernSol/chat/static/chat/js/article_detail.js' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/chat/static/chat/js/article_detail.js' (406)
+2024-07-07 20:15:05: Création du dossier C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/b5
+2024-07-07 20:15:05: Création du dossier C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/be
+2024-07-07 20:15:05: Nouvelle Copie 'H:/dernSol/.git/objects/46/26a6ef83c988543f505e0c627f15659dee4708' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/46/26a6ef83c988543f505e0c627f15659dee4708' (414)
+2024-07-07 20:15:05: Nouvelle Copie 'H:/dernSol/.git/objects/9c/34518df785b77ba47742f3b1999889b1854026' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/9c/34518df785b77ba47742f3b1999889b1854026' (491)
+2024-07-07 20:15:05: Nouvelle Copie 'H:/dernSol/.git/objects/b5/454c08f3e1fa242e31162ff68a6a02cbb0610c' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/b5/454c08f3e1fa242e31162ff68a6a02cbb0610c' (104)
+2024-07-07 20:15:05: Nouvelle Copie 'H:/dernSol/.git/objects/be/7361fcafa6f9f3946b123a02f20e14d3684d96' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/be/7361fcafa6f9f3946b123a02f20e14d3684d96' (194,513)
+2024-07-07 20:15:05: Ecrasement 'H:/dernSol/.git/logs/refs/heads/master' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/logs/refs/heads/master' (2,578)
+2024-07-07 20:15:05: Ecrasement 'H:/dernSol/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391' (15)
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /chat/static/chat/css
+2024-07-07 20:15:05: Ecrasement 'H:/dernSol/.git/logs/refs/remotes/origin/master' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/logs/refs/remotes/origin/master' (1,332)
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.idea
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /chat/templates/chat
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/objects/12
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/objects/17
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/objects/29
+2024-07-07 20:15:05: Ecrasement 'H:/dernSol/.git/refs/heads/master' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/refs/heads/master' (41)
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /chat/static/chat/js
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/objects/46
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/objects/9c
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/objects/b5
+2024-07-07 20:15:05: Ecrasement 'H:/dernSol/.git/refs/remotes/origin/master' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/refs/remotes/origin/master' (41)
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/objects/be
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/logs/refs/heads
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/objects/e6
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/logs/refs/remotes/origin
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/refs/heads
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/refs/remotes/origin
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/objects
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git/logs
+2024-07-07 20:15:05: Close Modified Folder (mod-time, acl): /.git
+2024-07-07 20:15:05: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-07 20:15:05: Sauvegarde du fichier d'état C:/Users/roadn/OneDrive/Python_bakup/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-07 20:15:06: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, Elements synchronisés : 24, Erreurs : 0
