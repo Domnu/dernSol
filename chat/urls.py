@@ -12,7 +12,7 @@ urlpatterns = [
     path('articles/create/', ArticleCreateView.as_view(), name='article_create'),
     path('articles/<int:pk>/comment/', CommentCreateView.as_view(), name='comment_create'),
     path('articles/<int:pk>/add_comment/', add_comment, name='add_comment'),
-    path('page_404/', page_404_test, name='page_404_test'),
+    path('page_404/', page_404_test, name='page_404'),
     # path('page_404/', custom_404, name='custom_404'),  # Ajoutez cette ligne
 ]
 

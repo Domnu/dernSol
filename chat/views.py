@@ -20,7 +20,6 @@ def page_404_test(request):
 
 def custom_404(request, exception):
     return render(request, 'chat/page_404.html', {}, status=404)
-    # return render(request, 'page_404.html', status=404)
 
 
 def Index(request):
