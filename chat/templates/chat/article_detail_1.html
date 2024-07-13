@@ -1,56 +1,166 @@
 {% extends "chat/base_generic.html" %}
 {% load static %}
 
-{% block title %}Détail de l'article{% endblock %}
-{% block page_title %}Détail de l'article{% endblock %}
+{% block title %}Article Détail{% endblock %}
+{% block page_title %}Détail de l'Article{% endblock %}
+
+{% block stylesheet %}
+    {#<link rel="stylesheet" href="{% static 'chat/css/article_detail.css' %}">#}
+{% endblock stylesheet %}
+
+<style>
+    {% block css %}
+
+        .container-articlr-commentaire {
+            background-color: rgba(186, 244, 208, 0.98);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 0;
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .article-header h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+
+        .article-author {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .article-body {
+            margin-bottom: 0;
+        }
+
+        .article-image {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .section-divider {
+            width: 100%;
+            height: 5px; /* Adjust the thickness here */
+            background-color: #e70d0d; /* Adjust the color here */
+            margin: 20px 0;
+        }
+
+        .comments-section {
+            margin-top: 40px;
+        }
+
+        .les-commentaires {
+            font-weight: bolder;
+            color: #2a2a2a;
+        }
+
+        .ajouter-commentaire {
+            margin-left: 10px;
+            padding: 15px 0 5px;
+            {#font-size: 1.8em;#}
+            font-weight: bolder;
+            {#text-align: left;#}
+            color: #2a2a2a;
+        }
+
+        .comment {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .comment-author {
+            font-size: 0.8em;
+            color: #333;
+        }
+
+        .comment-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 5px;
+        }
+
+        .comment-body {
+            margin-top: 10px;
+        }
+
+        .comment-form {
+            margin-top: 0;
+            background-color: rgba(229, 226, 226, 0.86);
+        }
+
+        {% comment %}.comment-form h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }{% endcomment %}
+
+        .comment-form .form-label {
+            font-weight: bold;
+            margin: 0 0 0 10px;
+        }
+
+        .comment-form .form-control {
+            margin-bottom: 15px;
+            border-color: rgb(231, 228, 228);
+            border-width: 10px;
+        }
+
+    {% endblock css %}
+</style>
 
 {% block content %}
-<main class="py-2 px-2 mt-3">
-    <div class="row">
-        <div class="col-md-8">
-            <article>
-                <h2>{{ article.title }}</h2>
-                <p>{{ article.body }}</p>
-            </article>
-
-            <section>
-                <h3>Commentaires</h3>
-                {% for comment in comments %}
-                    <div class="comment mb-2">
-                        <h5>{{ comment.title }}</h5>
-                        <p>{{ comment.body }}</p>
-                        <p><small>Écrit par {{ comment.author.username }} le {{ comment.created_at }}</small></p>
-                    </div>
-                {% endfor %}
-            </section>
-
-            <!-- Formulaire de commentaire dans un accordéon -->
-            <div class="accordion my-3" id="commentFormAccordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            Écrire un commentaire
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#commentFormAccordion">
-                        <div class="accordion-body">
-                            <form method="post" action="{% url 'chat:add_comment' article.pk %}">
-                                {% csrf_token %}
-                                <div class="mb-3">
-                                    <label for="title" class="form-label">Titre (facultatif)</label>
-                                    <input type="text" class="form-control" name="title" id="title" placeholder="Entrez un titre">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="body" class="form-label">Commentaire</label>
-                                    <textarea class="form-control" name="body" id="body" rows="5" placeholder="Écrivez votre commentaire ici"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Soumettre</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container-articlr-commentaire">
+        <div class="article-header">
+            <h1>{{ article.title }}</h1>
+            <p class="article-author">Par {{ article.author }} le {{ article.created_at }}</p>
         </div>
+        <div class="article-body">
+            {% if article.image %}
+                <img src="{{ article.image.url }}" alt="{{ article.title }}" class="article-image">
+            {% endif %}
+            <p>{{ article.body }}</p>
+        </div>
+        <hr class="section-divider">
+        <h2 class="les-commentaires">Les commentaires</h2>
+        {% for comment in comments %}
+            <div class="comment">
+                <p class="comment-author">{{ comment.author }} le {{ comment.created_at }}</p>
+                <p class="comment-title">{{ comment.title }}</p>
+                <p class="comment-body">{{ comment.body }}</p>
+            </div>
+        {% empty %}
+            <p>Aucun commentaire pour le moment. Soyez le premier à commenter !</p>
+        {% endfor %}
     </div>
-</main>
-{% endblock %}
+    <hr class="section-divider">
+    <div class="comment-form">
+        <h2 class="ajouter-commentaire">Ajouter un commentaire</h2>
+        <form action="{% url 'chat:add_comment' article.pk %}" method="post">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="title" class="form-label">Titre (facultatif)</label>
+                <input type="text" class="form-control" name="title" id="title" placeholder="Entrez un titre">
+            </div>
+            <div class="mb-3">
+                <label for="body" class="form-label">Commentaire</label>
+                <textarea class="form-control" name="body" id="body" rows="3"
+                          placeholder="Entrez votre commentaire"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Soumettre</button>
+        </form>
+    </div>
+{% endblock content %}
+
+{% block js %}
+    <script src="{% static 'chat/js/article_detail.js' %}"></script>
+{% endblock js %}

@@ -4,34 +4,35 @@
 {% block title %}Liste des Articles{% endblock %}
 {% block page_title %}Tous les Articles{% endblock %}
 
-<style>
-    {% block css %}
-    body {
-        background-image: url("{% static 'chat/img/piles_journaux_1.png' %}");
-        padding: 10px 0 10px 0;
-        font-size: 130%;
-    }
-    .container {
-        background-color: #736e6e;
-    }
-    {% endblock css %}
-</style>
+{% block css %}
+body {
+    background-image: url("{% static 'chat/img/piles_journaux_1.png' %}");
+    padding: 10px 0;
+    font-size: 130%;
+}
+.container {
+    background-color: #736e6e;
+}
+{% endblock css %}
 
 {% block content %}
-    <div class="bg-white text-center mt-0 mb-2">
-        <p class="text-black display-6">Articles publiés</p>
-    </div>
-    <div>
-        {% for article in article_list %}
-            <div class="card mt-2">
-                <div class="card-body">
-                    <h5 class="card-title">{{ article.title }}</h5>
-                    <p class="card-text">{{ article.body|truncatechars:150 }}</p>
-                    <a href="{% url 'chat:article_detail' pk=article.pk %}" class="btn btn-primary">Read More</a>
-                </div>
+<div class="bg-white text-center mt-0 mb-2">
+    <p class="text-black display-6">Articles publiés</p>
+</div>
+<div>
+    {% for article in article_list %}
+        <div class="card mt-2">
+            <div class="card-body">
+                <h5 class="card-title">{{ article.title }}</h5>
+                <p class="card-text">{{ article.body|truncatechars:150 }}</p>
+                <a href="{% url 'chat:article_detail' pk=article.pk %}" class="btn btn-primary">Lire la suite</a>
+                <form action="{% url 'chat:article_like' article.pk %}" method="post" class="d-inline">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-secondary">Like</button>
+                    <span>{{ article.likes.count }} Likes</span>
+                </form>
             </div>
-        {% empty %}
-            <p>No articles available.</p>
-        {% endfor %}
-    </div>
+        </div>
+    {% endfor %}
+</div>
 {% endblock %}
