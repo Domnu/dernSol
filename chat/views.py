@@ -1,4 +1,6 @@
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.http import Http404
 from django.shortcuts import get_object_or_404, render, redirect
 from django.urls import reverse
 from django.views.decorators.http import require_POST
@@ -6,6 +8,19 @@ from django.views.generic import ListView, DetailView, CreateView
 
 from .forms import ArticleForm, CommentForm
 from .models import Article, Comment
+
+from django.shortcuts import render
+
+
+def page_404_test(request):
+    response = render(request, 'chat/page_404.html', {})
+    response.status_code = 404
+    return response
+
+
+def custom_404(request, exception):
+    return render(request, 'chat/page_404.html', {}, status=404)
+    # return render(request, 'page_404.html', status=404)
 
 
 def Index(request):
@@ -25,6 +40,14 @@ class ArticleDetailView(DetailView):
     model = Article
     template_name = 'chat/article_detail.html'
     context_object_name = 'article'
+
+    def get_object(self, queryset=None):
+        try:
+            obj = super().get_object(queryset)
+            return obj
+        except Article.DoesNotExist:
+            print("Lin 41 views.py - Article does not exist!")  # Ajouter cette ligne pour le débogage
+            raise Http404("No Article matches the given query.")
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -63,6 +86,7 @@ class CommentCreateView(CreateView):
         return context
 
 
+@login_required
 @require_POST
 def add_comment(request, pk):
     article = get_object_or_404(Article, pk=pk)
@@ -70,6 +94,6 @@ def add_comment(request, pk):
     if form.is_valid():
         comment = form.save(commit=False)
         comment.article = article
-        comment.author = request.user
+        comment.author = request.user  # Assurez-vous que l'utilisateur est authentifié
         comment.save()
     return redirect('chat:article_detail', pk=article.pk)
