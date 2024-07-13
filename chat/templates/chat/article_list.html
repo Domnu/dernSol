@@ -28,7 +28,13 @@ body {
                 <a href="{% url 'chat:article_detail' pk=article.pk %}" class="btn btn-primary">Lire la suite</a>
                 <form action="{% url 'chat:article_like' article.pk %}" method="post" class="d-inline">
                     {% csrf_token %}
-                    <button type="submit" class="btn btn-secondary">Like</button>
+                    <button type="submit" class="btn btn-secondary">
+                        {% if user in article.likes.all %}
+                            Unlike
+                        {% else %}
+                            Like
+                        {% endif %}
+                    </button>
                     <span>{{ article.likes.count }} Likes</span>
                 </form>
             </div>

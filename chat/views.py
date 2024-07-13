@@ -33,6 +33,7 @@ def signup(request):
 class ArticleListView(ListView):
     model = Article
     template_name = 'chat/article_list.html'
+    context_object_name = 'article_list'
 
 
 class ArticleDetailView(DetailView):
@@ -62,6 +63,16 @@ class ArticleCreateView(LoginRequiredMixin, CreateView):
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
+
+
+def article_like(request, pk):
+    article = get_object_or_404(Article, pk=pk)
+    if request.user.is_authenticated:
+        if request.user in article.likes.all():
+            article.likes.remove(request.user)
+        else:
+            article.likes.add(request.user)
+    return redirect('chat:article_detail', pk=pk)
 
 
 class CommentCreateView(CreateView):

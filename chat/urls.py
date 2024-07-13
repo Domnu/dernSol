@@ -1,6 +1,6 @@
 from django.urls import path
 from .views import Index, signup, ArticleListView, ArticleDetailView, ArticleCreateView, CommentCreateView, add_comment, \
-    page_404_test
+    article_like, page_404_test
 
 app_name = 'chat'
 
@@ -12,6 +12,7 @@ urlpatterns = [
     path('articles/create/', ArticleCreateView.as_view(), name='article_create'),
     path('articles/<int:pk>/comment/', CommentCreateView.as_view(), name='comment_create'),
     path('articles/<int:pk>/add_comment/', add_comment, name='add_comment'),
+    path('articles/<int:pk>/like/', article_like, name='article_like'),
     path('page_404/', page_404_test, name='page_404'),
     # path('page_404/', custom_404, name='custom_404'),  # Ajoutez cette ligne
 ]
