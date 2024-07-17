@@ -1,0 +1,11 @@
+<!-- chat/templates/chat/notifications.html -->
+
+{% for notification in notifications %}
+    <div class="notification">
+        <p>{{ notification.message }}</p>
+        <span>{{ notification.timestamp }}</span>
+        {% if not notification.is_read %}
+            <a href="{% url 'chat:mark_notification_as_read' notification.id %}">Marquer comme lu</a>
+        {% endif %}
+    </div>
+{% endfor %}

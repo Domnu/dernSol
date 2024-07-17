@@ -1,5 +1,6 @@
 from django import forms
 from .models import Article, Comment
+from .models import PrivateMessage
 
 
 class ArticleForm(forms.ModelForm):
@@ -23,3 +24,7 @@ class CommentForm(forms.ModelForm):
         self.fields['title'].required = False
 
 
+class PrivateMessageForm(forms.ModelForm):
+    class Meta:
+        model = PrivateMessage
+        fields = ['recipient', 'body']

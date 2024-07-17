@@ -1,0 +1,9 @@
+<!-- chat/templates/chat/inbox.html -->
+
+{% for message in messages %}
+    <div class="message">
+        <p><strong>From:</strong> {{ message.sender }}</p>
+        <p>{{ message.body }}</p>
+        <span>{{ message.timestamp }}</span>
+    </div>
+{% endfor %}

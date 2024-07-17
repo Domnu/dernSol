@@ -1,12 +1,17 @@
 from django.test import TestCase
 from django.urls import reverse
-from .models import Article
+from django.contrib.auth import get_user_model
+from chat.models import Article
+
+User = get_user_model()
 
 
 class ArticleListViewTest(TestCase):
+
     def setUp(self):
-        Article.objects.create(title="Test Article 1", body="Test content 1")
-        Article.objects.create(title="Test Article 2", body="Test content 2")
+        self.user = User.objects.create_user(username='testuser', password='password')
+        Article.objects.create(author=self.user, title="Test Article 1", body="Test content 1")
+        Article.objects.create(author=self.user, title="Test Article 2", body="Test content 2")
 
     def test_view_url_exists_at_desired_location(self):
         response = self.client.get('/articles/')

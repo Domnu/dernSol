@@ -1,0 +1,20 @@
+2024-07-13 16:19:50: == Sync Started by User Command
+2024-07-13 16:19:50: ConnectCloned connected to file:///H:/dernSol
+2024-07-13 16:19:50: ConnectCloned connected to file:///H:/dernSol
+2024-07-13 16:19:50: ConnectCloned connected to file:///H:/dernSol
+2024-07-13 16:19:50: ConnectCloned connected to file:///~roadn/OneDrive/Python_bakup/dernSol
+2024-07-13 16:19:50: ConnectCloned connected to file:///~roadn/OneDrive/Python_bakup/dernSol
+2024-07-13 16:19:50: ConnectCloned connected to file:///~roadn/OneDrive/Python_bakup/dernSol
+2024-07-13 16:19:50: Ecrasement 'H:/dernSol/.git/index' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/index' (13,792)
+2024-07-13 16:19:50: Création du dossier C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/64
+2024-07-13 16:19:50: Nouvelle Copie 'H:/dernSol/.git/objects/fb/04deeb8dd0c08f9340ad29afb846cdf48199e9' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/fb/04deeb8dd0c08f9340ad29afb846cdf48199e9' (602)
+2024-07-13 16:19:50: Nouvelle Copie 'H:/dernSol/.git/objects/64/1630243cf93fb9726d64a48b6e4aa9ddb8ec32' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/64/1630243cf93fb9726d64a48b6e4aa9ddb8ec32' (313)
+2024-07-13 16:19:50: Nouvelle Copie 'H:/dernSol/.git/objects/e1/fe1bde809d6bb020614a7a4209628326745458' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.git/objects/e1/fe1bde809d6bb020614a7a4209628326745458' (106)
+2024-07-13 16:19:50: Close Modified Folder (mod-time, acl): /.git/objects/fb
+2024-07-13 16:19:50: Close Modified Folder (mod-time, acl): /.git/objects/64
+2024-07-13 16:19:50: Close Modified Folder (mod-time, acl): /.git/objects/e1
+2024-07-13 16:19:50: Close Modified Folder (mod-time, acl): /.git/objects
+2024-07-13 16:19:50: Close Modified Folder (mod-time, acl): /.git
+2024-07-13 16:19:51: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-13 16:19:51: Sauvegarde du fichier d'état C:/Users/roadn/OneDrive/Python_bakup/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-13 16:19:51: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, Elements synchronisés : 5, Erreurs : 0

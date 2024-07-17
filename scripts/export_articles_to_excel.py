@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 # Chemin vers votre base de données SQLite
-db_path = 'H:\\dernSol\\db.sqlite3'
+db_path = '/smerde.sqlite3'
 
 # Connexion à la base de données
 conn = sqlite3.connect(db_path)
