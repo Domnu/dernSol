@@ -1,0 +1,74 @@
+2024-07-14 05:03:42: == Sync Started by User Command
+2024-07-14 05:03:42: ConnectCloned connected to file:///H:/dernSol
+2024-07-14 05:03:42: ConnectCloned connected to file:///H:/dernSol
+2024-07-14 05:03:42: ConnectCloned connected to file:///H:/dernSol
+2024-07-14 05:03:42: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-14 05:03:42: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-14 05:03:42: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/01_Archiv_dernSol/240714 03h37 Actions et suggestion pour le chat.html' -> 'H:/01_Synchro/dernSol/01_Archiv_dernSol/240714 03h37 Actions et suggestion pour le chat.html' (2,851)
+2024-07-14 05:03:42: H:/dernSol/.git/index: Source file has changed between Analyze and Sync from '[file] size=15,220 accu-time=2024-07-14 04:35:13 attr=Archive,WArchive cktype=0' to 'size=15,348 time=2024-07-14 05:03:39', noted in source file state
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/.git/index' -> 'H:/01_Synchro/dernSol/.git/index' (15,220)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/01_Archiv_dernSol/240714 04h34 Actions et suggestion pour le chat.html' -> 'H:/01_Synchro/dernSol/01_Archiv_dernSol/240714 04h34 Actions et suggestion pour le chat.html' (3,369)
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/01_Archiv_dernSol/Modèle OK avec pre.html' -> 'H:/01_Synchro/dernSol/01_Archiv_dernSol/Modèle OK avec pre.html' (3,989)
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/.idea/workspace.xml' -> 'H:/01_Synchro/dernSol/.idea/workspace.xml' (42,273)
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/.git/objects/2f/5eaa0496c42e32b9fd0e1f8cc1065dc18ba979' -> 'H:/01_Synchro/dernSol/.git/objects/2f/5eaa0496c42e32b9fd0e1f8cc1065dc18ba979' (340)
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/chat/__pycache__/models.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/chat/__pycache__/models.cpython-312.pyc' (3,212)
+2024-07-14 05:03:42: Suppression du fichier H:/01_Synchro/dernSol/chat/__pycache__/tests.cpython-312.pyc
+2024-07-14 05:03:42: Suppression du fichier H:/01_Synchro/dernSol/chat/__pycache__/tests_1.cpython-312.pyc
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/chat/__pycache__/views.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/chat/__pycache__/views.cpython-312.pyc' (7,182)
+2024-07-14 05:03:42: Création du dossier H:/01_Synchro/dernSol/chat/tests
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/chat/models.py' -> 'H:/01_Synchro/dernSol/chat/models.py' (1,644)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/__init__.py' -> 'H:/01_Synchro/dernSol/chat/tests/__init__.py' (0)
+2024-07-14 05:03:42: Création du dossier H:/01_Synchro/dernSol/chat/tests/__pycache__
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/01_Archiv_dernSol/Les calques avec Photoshop.html' -> 'H:/01_Synchro/dernSol/01_Archiv_dernSol/Les calques avec Photoshop.html' (6,904)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/Modèle OK avec pre.html' -> 'H:/01_Synchro/dernSol/chat/tests/Modèle OK avec pre.html' (3,989)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/__pycache__/__init__.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/chat/tests/__pycache__/__init__.cpython-312.pyc' (130)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/__pycache__/test_integration.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/chat/tests/__pycache__/test_integration.cpython-312.pyc' (2,258)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/__pycache__/test_forms.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/chat/tests/__pycache__/test_forms.cpython-312.pyc' (2,534)
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/chat/templates/chat/base_generic.html' -> 'H:/01_Synchro/dernSol/chat/templates/chat/base_generic.html' (2,464)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/__pycache__/test_models.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/chat/tests/__pycache__/test_models.cpython-312.pyc' (4,369)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/__pycache__/test_views.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/chat/tests/__pycache__/test_views.cpython-312.pyc' (3,100)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/__pycache__/tests_1.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/chat/tests/__pycache__/tests_1.cpython-312.pyc' (819)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/__pycache__/tests_b.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/chat/tests/__pycache__/tests_b.cpython-312.pyc' (2,448)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/Organisation des tests.html' -> 'H:/01_Synchro/dernSol/chat/tests/Organisation des tests.html' (7,000)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/test_forms.py' -> 'H:/01_Synchro/dernSol/chat/tests/test_forms.py' (1,251)
+2024-07-14 05:03:42: Déplacement H:/01_Synchro/dernSol/chat/tests_1.py -> H:/01_Synchro/dernSol/chat/tests/tests_1.py
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/test_integration.py' -> 'H:/01_Synchro/dernSol/chat/tests/test_integration.py' (1,202)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/test_views.py' -> 'H:/01_Synchro/dernSol/chat/tests/test_views.py' (1,644)
+2024-07-14 05:03:42: Suppression du fichier H:/01_Synchro/dernSol/chat/tests.py
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/tests_b.py' -> 'H:/01_Synchro/dernSol/chat/tests/tests_b.py' (1,093)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/.git/objects/3c/55f1757c6c69a51a17640ca7a23f9ef05c11c1' -> 'H:/01_Synchro/dernSol/.git/objects/3c/55f1757c6c69a51a17640ca7a23f9ef05c11c1' (1,254)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/.git/objects/43/e4ab0a790137c7dc26f6b6f6e521a077d1c3ff' -> 'H:/01_Synchro/dernSol/.git/objects/43/e4ab0a790137c7dc26f6b6f6e521a077d1c3ff' (512)
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/chat/views.py' -> 'H:/01_Synchro/dernSol/chat/views.py' (3,922)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/.git/objects/49/826776197618eb426c14ba57d0f617a857c14a' -> 'H:/01_Synchro/dernSol/.git/objects/49/826776197618eb426c14ba57d0f617a857c14a' (2,772)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/.git/objects/be/9b7e8c9807013de0df665dc8b9ec81dd3989fe' -> 'H:/01_Synchro/dernSol/.git/objects/be/9b7e8c9807013de0df665dc8b9ec81dd3989fe' (1,124)
+2024-07-14 05:03:42: Nouvelle Copie 'H:/dernSol/chat/tests/test_models.py' -> 'H:/01_Synchro/dernSol/chat/tests/test_models.py' (1,938)
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/.git/objects/4b/dcfcb8ddf83909b37899b4a6cd01cf0932ea69' -> 'H:/01_Synchro/dernSol/.git/objects/4b/dcfcb8ddf83909b37899b4a6cd01cf0932ea69' (117)
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/.git/objects/f3/d093a95ba5b411f2981e035be6f13466342815' -> 'H:/01_Synchro/dernSol/.git/objects/f3/d093a95ba5b411f2981e035be6f13466342815' (197)
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/.git/objects/d7/0190cab5ba792ef5aff1fe8aaf679301dc3a3b' -> 'H:/01_Synchro/dernSol/.git/objects/d7/0190cab5ba792ef5aff1fe8aaf679301dc3a3b' (1,483)
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /.idea
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391' -> 'H:/01_Synchro/dernSol/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391' (15)
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /.git/objects/2f
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /chat/__pycache__
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /01_Archiv_dernSol
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /chat/templates/chat
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /chat/tests/__pycache__
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /.git/objects/3c
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /.git/objects/43
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /.git/objects/49
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /.git/objects/be
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/collected_codes.txt' -> 'H:/01_Synchro/dernSol/collected_codes.txt' (10,488)
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /.git/objects/4b
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/dernSol/settings.py' -> 'H:/01_Synchro/dernSol/dernSol/settings.py' (4,988)
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /.git/objects/d7
+2024-07-14 05:03:42: Ecrasement 'H:/dernSol/dernSol/__pycache__/settings.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/dernSol/__pycache__/settings.cpython-312.pyc' (2,890)
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /.git/objects/f3
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /.git/objects/e6
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /chat/tests
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /dernSol/__pycache__
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /chat
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /dernSol
+2024-07-14 05:03:42: Close Modified Folder (mod-time, acl): /.git
+2024-07-14 05:03:42: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-14 05:03:43: Sauvegarde du fichier d'état H:/01_Synchro/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-14 05:03:43: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, Elements synchronisés : 45, Erreurs : 0

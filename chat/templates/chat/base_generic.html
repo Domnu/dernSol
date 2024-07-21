@@ -35,14 +35,23 @@
 
 <main class="container mt-3 p-2 p-md-4">
     {% block content %}
-    <!-- Contenu dynamique inséré ici -->
+        <!-- Contenu dynamique inséré ici -->
     {% endblock %}
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
 </main>
 
 <footer class="bg-dark text-light py-3 mt-4">
     <div class="container text-center">
         <p>© 2024 Site de Chat - Tous droits réservés</p>
-        <p><a href="#" class="text-light">Politique de confidentialité</a> | <a href="#" class="text-light">Conditions d'utilisation</a></p>
+        <p><a href="#" class="text-light">Politique de confidentialité</a> | <a href="#" class="text-light">Conditions
+            d'utilisation</a></p>
     </div>
 </footer>
 

@@ -1,0 +1,7 @@
+<!-- chat/templates/chat/send_message.html -->
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Send</button>
+</form>

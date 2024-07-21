@@ -1,48 +1,91 @@
 dernSol/
-    Ajout_utilisateur.py
-    creat_tree_dernSol.py
-    creat_tree_dernSol_Del.py
+    collected_codes.txt
+    copy_files.py
+    copy_files_code.py
+    copy_specific_files.py
+    copy_specific_files_1.py
+    copy_specific_files_1_codes.txt
     db.sqlite3
-    generate_tree.py
+    db.sqlite3.sql
+    db_OK.sqlite3
     manage.py
     requirements.txt
     .idea/
         .gitignore
+        DatabaseToolDbSqlDialect.xml
+        DatabaseToolSources.xml
         dernSol.iml
+        encodings.xml
         misc.xml
         modules.xml
+        SqlFileSource.xml
         vcs.xml
         workspace.xml
         inspectionProfiles/
             profiles_settings.xml
             Project_Default.xml
     01_Archiv_dernSol/
+        01_invitation sur githubJe t.docx
+        240714 03h37 Actions et suggestion pour le chat.html
+        240714 04h34 Actions et suggestion pour le chat.html
+        articles.xlsx
+        Extraire des données d'une table SQLite avec PowerShell .docx
+        La fonction que vous avez fournie, `f x, file.docx
+        Les calques avec Photoshop.html
+        Modèle OK avec pre.html
+        Pourquoi Django ajoute.docx
+        sqlite-dll-win-x64-3440200.zip
+        SQLite3 vers postgrsQL.html
         tree_dernSol.html
         tree_dernSol.txt
+        Vérifier si des éléments essentiels manquent à l'application chat.html
+        Modèle CustomUser/
+            Vérifier et corriger probs éventuels du modèle CustomUser.html
+        pwsh/
+            Get-ChildItem -Path H dernSol accounts migrations 0  Remove-Item.txt
+            Supprimer les fichiers de migration existants.txt
+    accounts/
+        admin.py
+        apps.py
+        models.py
+        tests.py
+        views.py
+        __init__.py
+        migrations/
+            0001_initial.py
+            0002_alter_customuser_options_alter_customuser_managers_and_more.py
+            0003_customuser_last_ip.py
+            __init__.py
+            __pycache__/
+                0001_initial.cpython-312.pyc
+                0002_alter_customuser_options_alter_customuser_managers_and_more.cpython-312.pyc
+                0003_customuser_last_ip.cpython-312.pyc
+                __init__.cpython-312.pyc
+        __pycache__/
+            admin.cpython-312.pyc
+            apps.cpython-312.pyc
+            models.cpython-312.pyc
+            tests.cpython-312.pyc
+            __init__.cpython-312.pyc
     chat/
         admin.py
         apps.py
         forms.py
         middleware.py
         models.py
-        tests.py
-        tests_1.py
         urls.py
         views.py
         __init__.py
         migrations/
             0001_initial.py
-            0002_myuser_user_permissions.py
-            0003_alter_myuser_options_alter_myuser_managers_and_more.py
             __init__.py
             __pycache__/
                 0001_initial.cpython-312.pyc
-                0002_myuser_user_permissions.cpython-312.pyc
-                0003_alter_myuser_options_alter_myuser_managers_and_more.cpython-312.pyc
                 __init__.cpython-312.pyc
         static/
             chat/
                 css/
+                    article_detail.css
                     style.css
                 img/
                     custom_background.png
@@ -65,6 +108,7 @@ dernSol/
                     piles_journaux_1.png
                     sous_bois.png
                 js/
+                    article_detail.js
                 scss/
         templates/
             chat/
@@ -74,20 +118,41 @@ dernSol/
                 base_generic.html
                 comment_form.html
                 form_signup.html
+                inbox.html
                 index.html
                 navbar.html
+                notifications.html
+                page_404.html
+                send_message.html
                 signup.html
-            registratioj/
-                login.html
-                login_extend.html
+        tests/
+            Modèle OK avec pre.html
+            Organisation des tests.html
+            tests_1.py
+            tests_b.py
+            test_forms.py
+            test_integration.py
+            test_models.py
+            test_notifications.py
+            test_user_model.py
+            test_views.py
+            __init__.py
+            __pycache__/
+                tests_1.cpython-312.pyc
+                tests_b.cpython-312.pyc
+                test_forms.cpython-312.pyc
+                test_integration.cpython-312.pyc
+                test_models.cpython-312.pyc
+                test_notifications.cpython-312.pyc
+                test_user_model.cpython-312.pyc
+                test_views.cpython-312.pyc
+                __init__.cpython-312.pyc
         __pycache__/
             admin.cpython-312.pyc
             apps.cpython-312.pyc
             forms.cpython-312.pyc
             middleware.cpython-312.pyc
             models.cpython-312.pyc
-            tests.cpython-312.pyc
-            tests_1.cpython-312.pyc
             urls.cpython-312.pyc
             views.cpython-312.pyc
             __init__.cpython-312.pyc
@@ -102,7 +167,24 @@ dernSol/
             urls.cpython-312.pyc
             wsgi.cpython-312.pyc
             __init__.cpython-312.pyc
+    media/
+        articles/
+            image_viber_2024-06-29_10-03-17-464.jpg
+            image_viber_2024-06-29_10-03-17-464_q6QLsSB.jpg
+    scripts/
+        create_user_table.py
+        export_articles_to_excel.py
+        generate_secret_key.py
+        generate_tree.py
+        manage_users.py
+    static/
     templates/
+        404.html
+        registration/
+            login.html
+            login_extend.html
+            login_Orig.html
+            login_ToDel.html
     _gsdata_/
         2024-0703-171921-DESKTOP-OF32KKV-dernSol.log
         2024-0703-172752-DESKTOP-OF32KKV-dernSol.log
@@ -110,6 +192,23 @@ dernSol/
         2024-0703-193654-DESKTOP-OF32KKV-DernSol-Chat.log
         2024-0704-154031-DESKTOP-OF32KKV-DernSol-Chat.log
         2024-0704-154112-DESKTOP-OF32KKV-dernSol.log
+        2024-0705-012725-DESKTOP-OF32KKV-DernSol-Chat.log
+        2024-0706-234514-DESKTOP-OF32KKV-DernSol-Chat.log
+        2024-0706-234604-DESKTOP-OF32KKV-dernSol.log
+        2024-0707-181246-DESKTOP-OF32KKV-DernSol-Chat.log
+        2024-0707-181822-DESKTOP-OF32KKV-dernSol.log
+        2024-0707-201453-DESKTOP-OF32KKV-dernSol.log
+        2024-0709-041729-DESKTOP-OF32KKV-DernSol-Chat.log
+        2024-0713-024942-DESKTOP-OF32KKV-DernSol-Chat.log
+        2024-0713-032746-DESKTOP-OF32KKV-DernSol-Chat.log
+        2024-0713-033209-DESKTOP-OF32KKV-DernSol-Chat.log
+        2024-0713-161852-DESKTOP-OF32KKV-DernSol-Chat.log
+        2024-0713-161909-DESKTOP-OF32KKV-dernSol.log
+        2024-0713-161942-DESKTOP-OF32KKV-dernSol.log
+        2024-0713-202220-DESKTOP-OF32KKV-DernSol-Chat.log
+        2024-0714-050333-DESKTOP-OF32KKV-DernSol-Chat.log
+        2024-0714-080046-DESKTOP-OF32KKV-DernSol-Chat.log
+        2024-0717-020850-DESKTOP-OF32KKV-DernSol-Chat.log
         _file_state_v4._gs
         _insync_v4.gsl
     __pycache__/

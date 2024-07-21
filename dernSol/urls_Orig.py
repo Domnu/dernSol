@@ -20,8 +20,8 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('chat.urls', namespace='chat')),
-    path('accounts/', include('accounts.urls')),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+                  path("admin/", admin.site.urls),
+                  path('', include('chat.urls', namespace='chat')),  # Assurez-vous que le namespace est correct
+                  path('accounts/', include('django.contrib.auth.urls')),  # URL d'authentification si nécessaire
+              ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
