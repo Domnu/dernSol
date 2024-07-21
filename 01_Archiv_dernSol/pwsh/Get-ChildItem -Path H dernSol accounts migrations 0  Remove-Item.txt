@@ -1,0 +1,3 @@
+Get-ChildItem -Path "H:\dernSol\accounts\migrations\0*" | Remove-Item
+
+Get-ChildItem -Path "H:\dernSol\chat\migrations\0*" | Remove-Item

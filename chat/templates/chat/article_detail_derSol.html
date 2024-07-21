@@ -1,0 +1,53 @@
+{% extends "chat/base_generic.html" %}
+{% load static %}
+
+{% block title %}{{ article.title }}{% endblock %}
+{% block page_title %}{{ article.title }}{% endblock %}
+
+{% block content %}
+<article class="container mt-4">
+    <div class="p-3">
+        <h1>{{ article.title }}</h1>
+        <p>{{ article.body }}</p>
+        <p>Auteur : {{ article.author }}</p>
+        <p>Publié le : {{ article.created_at }}</p>
+        <hr class="section-divider">
+        <div>
+            <form action="{% url 'chat:article_like' article.pk %}" method="post">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-primary">
+                    {% if user in article.likes.all %}
+                        Unlike
+                    {% else %}
+                        Like
+                    {% endif %}
+                </button>
+                <span>{{ article.likes.count }} Likes</span>
+            </form>
+        </div>
+        <hr class="section-divider">
+        <h3>Commentaires</h3>
+        {% for comment in comments %}
+            <div>
+                <h5>{{ comment.title }}</h5>
+                <p>{{ comment.body }}</p>
+                <small>Par {{ comment.author }}</small>
+            </div>
+        {% endfor %}
+        <hr class="section-divider">
+        <h4>Ajouter un commentaire</h4>
+        <form method="post" action="{% url 'chat:add_comment' article.pk %}">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="title" class="form-label">Titre (facultatif)</label>
+                <input type="text" class="form-control" name="title" id="title" placeholder="Entrez un titre">
+            </div>
+            <div class="mb-3">
+                <label for="body" class="form-label">Commentaire</label>
+                <textarea class="form-control" name="body" id="body" rows="4" placeholder="Votre commentaire"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Soumettre</button>
+        </form>
+    </div>
+</article>
+{% endblock %}

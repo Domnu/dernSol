@@ -1,0 +1,19 @@
+2024-07-19 02:09:48: == Sync Started by User Command
+2024-07-19 02:09:48: ConnectCloned connected to file:///H:/dernSol
+2024-07-19 02:09:48: ConnectCloned connected to file:///H:/dernSol
+2024-07-19 02:09:48: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-19 02:09:48: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-19 02:09:48: ConnectCloned connected to file:///H:/dernSol
+2024-07-19 02:09:48: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-19 02:09:48: Déplacement H:/01_Synchro/dernSol/accounts/templates/accounts/form_cnx.html -> H:/01_Synchro/dernSol/accounts/templates/accounts/form_cnx_Orig.html
+2024-07-19 02:09:48: Ecrasement 'H:/dernSol/db.sqlite3' -> 'H:/01_Synchro/dernSol/db.sqlite3' (217,088)
+2024-07-19 02:09:48: Ecrasement 'H:/dernSol/chat/templates/chat/base_generic.html' -> 'H:/01_Synchro/dernSol/chat/templates/chat/base_generic.html' (2,671)
+2024-07-19 02:09:48: Ecrasement 'H:/dernSol/.idea/dataSources.xml' -> 'H:/01_Synchro/dernSol/.idea/dataSources.xml' (533)
+2024-07-19 02:09:48: Close Modified Folder (mod-time, acl): /chat/templates/chat
+2024-07-19 02:09:48: Ecrasement 'H:/dernSol/accounts/templates/accounts/signup.html' -> 'H:/01_Synchro/dernSol/accounts/templates/accounts/signup.html' (10,098)
+2024-07-19 02:09:48: Ecrasement 'H:/dernSol/.idea/workspace.xml' -> 'H:/01_Synchro/dernSol/.idea/workspace.xml' (141,568)
+2024-07-19 02:09:49: Close Modified Folder (mod-time, acl): /accounts/templates/accounts
+2024-07-19 02:09:49: Close Modified Folder (mod-time, acl): /.idea
+2024-07-19 02:09:49: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-19 02:09:49: Sauvegarde du fichier d'état H:/01_Synchro/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-19 02:09:49: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, Elements synchronisés : 7, Erreurs : 0

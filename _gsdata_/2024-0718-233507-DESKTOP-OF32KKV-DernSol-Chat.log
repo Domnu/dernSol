@@ -1,0 +1,12 @@
+2024-07-18 23:35:13: == Sync Started by User Command
+2024-07-18 23:35:13: Start only 2 threads, limited by tasks to run
+2024-07-18 23:35:13: ConnectCloned connected to file:///H:/dernSol
+2024-07-18 23:35:13: ConnectCloned connected to file:///H:/dernSol
+2024-07-18 23:35:13: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-18 23:35:13: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-18 23:35:14: Ecrasement 'H:/dernSol/.idea/workspace.xml' -> 'H:/01_Synchro/dernSol/.idea/workspace.xml' (141,552)
+2024-07-18 23:35:14: Ecrasement 'H:/dernSol/.idea/dataSources.xml' -> 'H:/01_Synchro/dernSol/.idea/dataSources.xml' (533)
+2024-07-18 23:35:14: Close Modified Folder (mod-time, acl): /.idea
+2024-07-18 23:35:14: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-18 23:35:14: Sauvegarde du fichier d'état H:/01_Synchro/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-18 23:35:15: == Sync Complete. Time: 00:00:02, Speed: 0.00/s, Elements synchronisés : 2, Erreurs : 0

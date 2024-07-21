@@ -1,0 +1,111 @@
+{% extends "chat/base_generic.html" %}
+{% load static %}
+
+{% block title %}{{ article.title }}{% endblock %}
+{% block page_title %}{{ article.title }}{% endblock %}
+
+<style>
+    {% block css %}
+    body {
+        padding: 15px 7px;
+        background: url('{% static 'chat/img/detail_article.png' %}') repeat center center;
+    }
+    .container {
+        background: rgb(253, 253, 253);
+    }
+    {% endblock css %}
+</style>
+
+{% block content %}
+<div class="container bg-primary-subtle m-0 p-2 pt-0 fs-5 lh-sm">
+    <h1>{{ article.title }}</h1>
+    <p class="text-muted">Écrit par {{ article.author }}, publié le {{ article.created_at|date:"d/m/Y" }}</p>
+
+    <div class="clearfix">
+        {% if article.image %}
+            <img src="{{ article.image.url }}" class="img-fluid float-start me-3 mb-3" alt="Image de l'article"
+                 style="max-height: 150px; cursor: pointer;" id="article-image">
+        {% else %}
+            <img src="{% static 'chat/img/default_chat.png' %}" class="img-fluid float-start me-3 mb-3"
+                 alt="Image par défaut" style="max-height: 150px; cursor: pointer;" id="article-image">
+        {% endif %}
+        <p>{{ article.body }}</p>
+        <div>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#commentFormAccordion" aria-expanded="false" aria-controls="commentFormAccordion">
+                Commenter cet article
+            </button>
+        </div>
+    </div>
+
+    <!-- Affichage des commentaires -->
+    <div class="comments my-3 border-black border-2 bg-white">
+        <h2 class="text-center pt-2">Les Commentaires</h2>
+        {% for comment in comments %}
+            <div class="card mb-0 p-2">
+                <div class="card-body " style="background-color: rgba(235,233,233,0.88)">
+                    <p class="card-text">{{ comment.body }}</p>
+                    <p class="text-muted mb-0">Commenté par {{ comment.author }},
+                        le {{ comment.created_at|date:"d/m/Y H:i" }}</p>
+                </div>
+            </div>
+        {% empty %}
+            <p>Aucun commentaire pour l'instant.</p>
+        {% endfor %}
+    </div>
+
+    <!-- Formulaire de commentaire dans un accordéon -->
+    <div class="accordion my-3" id="commentFormAccordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Écrire un commentaire
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#commentFormAccordion">
+                <div class="accordion-body">
+                    <form method="post" action="{% url 'chat:add_comment' article.pk %}">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <label for="comment-body" class="form-label">Votre commentaire</label>
+                            <textarea class="form-control" id="comment-body" name="body" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enregistrer et fermer</button>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="collapse" data-bs-target="#collapseOne">Annuler</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="imageModalLabel">Image agrandie</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="" id="modalImage" class="img-fluid" alt="Image agrandie">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var image = document.getElementById("article-image");
+        var modalImage = document.getElementById("modalImage");
+
+        if (image) {
+            image.addEventListener("click", function() {
+                var src = image.getAttribute("src");
+                modalImage.setAttribute("src", src);
+                var myModal = new bootstrap.Modal(document.getElementById("imageModal"));
+                myModal.show();
+            });
+        }
+    });
+</script>
+{% endblock %}

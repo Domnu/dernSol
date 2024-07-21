@@ -1,0 +1,22 @@
+2024-07-18 19:05:54: == Sync Started by User Command
+2024-07-18 19:05:54: ConnectCloned connected to file:///H:/dernSol
+2024-07-18 19:05:54: ConnectCloned connected to file:///H:/dernSol
+2024-07-18 19:05:54: ConnectCloned connected to file:///H:/dernSol
+2024-07-18 19:05:54: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-18 19:05:54: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-18 19:05:54: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-18 19:05:54: Ecrasement 'H:/dernSol/.git/index' -> 'H:/01_Synchro/dernSol/.git/index' (109,115)
+2024-07-18 19:05:54: Ecrasement 'H:/dernSol/accounts/__pycache__/views.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/accounts/__pycache__/views.cpython-312.pyc' (2,232)
+2024-07-18 19:05:54: Ecrasement 'H:/dernSol/.idea/workspace.xml' -> 'H:/01_Synchro/dernSol/.idea/workspace.xml' (140,804)
+2024-07-18 19:05:54: Nouvelle Copie 'H:/dernSol/accounts/views_Ok.py' -> 'H:/01_Synchro/dernSol/accounts/views_Ok.py' (1,653)
+2024-07-18 19:05:54: Close Modified Folder (mod-time, acl): /accounts/__pycache__
+2024-07-18 19:05:54: Close Modified Folder (mod-time, acl): /.idea
+2024-07-18 19:05:54: Ecrasement 'H:/dernSol/accounts/views.py' -> 'H:/01_Synchro/dernSol/accounts/views.py' (1,417)
+2024-07-18 19:05:54: Nouvelle Copie 'H:/dernSol/.git/objects/3e/b9538226cd6cafedc6166441c5718da2a16ed5' -> 'H:/01_Synchro/dernSol/.git/objects/3e/b9538226cd6cafedc6166441c5718da2a16ed5' (593)
+2024-07-18 19:05:54: Ecrasement 'H:/dernSol/db.sqlite3' -> 'H:/01_Synchro/dernSol/db.sqlite3' (217,088)
+2024-07-18 19:05:54: Close Modified Folder (mod-time, acl): /accounts
+2024-07-18 19:05:54: Close Modified Folder (mod-time, acl): /.git/objects/3e
+2024-07-18 19:05:54: Close Modified Folder (mod-time, acl): /.git
+2024-07-18 19:05:55: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-18 19:05:55: Sauvegarde du fichier d'état H:/01_Synchro/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-18 19:05:55: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, Elements synchronisés : 7, Erreurs : 0

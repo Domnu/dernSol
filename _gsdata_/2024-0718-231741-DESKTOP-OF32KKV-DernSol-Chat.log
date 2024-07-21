@@ -1,0 +1,25 @@
+2024-07-18 23:17:49: == Sync Started by User Command
+2024-07-18 23:17:50: ConnectCloned connected to file:///H:/dernSol
+2024-07-18 23:17:50: ConnectCloned connected to file:///H:/dernSol
+2024-07-18 23:17:50: ConnectCloned connected to file:///H:/dernSol
+2024-07-18 23:17:50: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-18 23:17:50: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-18 23:17:50: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-18 23:17:50: Ecrasement 'H:/dernSol/db.sqlite3' -> 'H:/01_Synchro/dernSol/db.sqlite3' (217,088)
+2024-07-18 23:17:50: Ecrasement 'H:/dernSol/accounts/forms.py' -> 'H:/01_Synchro/dernSol/accounts/forms.py' (780)
+2024-07-18 23:17:50: Ecrasement 'H:/dernSol/accounts/__pycache__/forms.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/accounts/__pycache__/forms.cpython-312.pyc' (1,690)
+2024-07-18 23:17:50: Ecrasement 'H:/dernSol/accounts/__pycache__/views.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/accounts/__pycache__/views.cpython-312.pyc' (2,680)
+2024-07-18 23:17:50: Ecrasement 'H:/dernSol/accounts/templates/accounts/form_cnx.html' -> 'H:/01_Synchro/dernSol/accounts/templates/accounts/form_cnx.html' (5,976)
+2024-07-18 23:17:50: Ecrasement 'H:/dernSol/accounts/templates/accounts/signup.html' -> 'H:/01_Synchro/dernSol/accounts/templates/accounts/signup.html' (9,865)
+2024-07-18 23:17:50: Close Modified Folder (mod-time, acl): /accounts/__pycache__
+2024-07-18 23:17:50: Ecrasement 'H:/dernSol/accounts/views.py' -> 'H:/01_Synchro/dernSol/accounts/views.py' (1,795)
+2024-07-18 23:17:50: Close Modified Folder (mod-time, acl): /accounts/templates/accounts
+2024-07-18 23:17:50: Close Modified Folder (mod-time, acl): /accounts
+2024-07-18 23:17:50: Ecrasement 'H:/dernSol/.idea/workspace.xml' -> 'H:/01_Synchro/dernSol/.idea/workspace.xml' (140,703)
+2024-07-18 23:17:50: Ecrasement 'H:/dernSol/chat/templates/chat/base_generic.html' -> 'H:/01_Synchro/dernSol/chat/templates/chat/base_generic.html' (2,602)
+2024-07-18 23:17:50: Ecrasement 'H:/dernSol/chat/templates/chat/index.html' -> 'H:/01_Synchro/dernSol/chat/templates/chat/index.html' (4,838)
+2024-07-18 23:17:50: Close Modified Folder (mod-time, acl): /.idea
+2024-07-18 23:17:50: Close Modified Folder (mod-time, acl): /chat/templates/chat
+2024-07-18 23:17:50: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-18 23:17:50: Sauvegarde du fichier d'état H:/01_Synchro/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-18 23:17:51: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, Elements synchronisés : 10, Erreurs : 0

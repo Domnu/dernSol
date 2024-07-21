@@ -1,0 +1,14 @@
+rm accounts/migrations/0*
+rm chat/migrations/0*
+rm db.sqlite3
+
+python manage.py makemigrations accounts chat
+python manage.py migrate
+
+python manage.py test
+
+
+rm -rf accounts/migrations/0*
+rm -rf chat/migrations/0*
+
+
