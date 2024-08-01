@@ -1,0 +1,56 @@
+<!-- templates/accounts/signup.html -->
+{% extends "chat/base_generic.html" %}
+{% load static %}
+
+{% block content %}
+    <main class="py-2 px-2 mt-3">
+        <div class="row">
+            <div class="col-md-6 m-0 bg-light" style="border: 5px solid #d8d0c7;">
+                <div class="container">
+                    <h2 class="text-center">Enregistrez-vous ici</h2>
+                    <form method="post" id="registration-form">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Nom ou Pseudo :</label>
+                            <input type="text" class="form-control" id="username" name="username" maxlength="150"
+                                   pattern="[A-Za-z0-9@.+-_]+" required>
+                            <div class="form-text">Requis. 150 caractères max. Uniquement lettres, nombres et « @ », « .
+                                », « + », « - » et « _ ».
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email :</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password1" class="form-label">Mot de passe :</label>
+                            <input type="password" class="form-control" id="password1" name="password1" minlength="8"
+                                   required>
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" onclick="togglePasswordVisibility()"> Afficher le mot de passe
+                                    <span class="tooltip-text fs-6">Attention: Activer cette option dans un lieu public peut exposer votre mot de passe.</span>
+                                </label>
+                            </div>
+                            <div class="form-text">
+                                Evitez d'utiliser vos informations personnelles.<br>
+                                Le mot de passe doit contenir au minimum 8 caractères.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password2" class="form-label">Confirmation du mot de passe :</label>
+                            <input type="password" class="form-control" id="password2" name="password2" minlength="8"
+                                   required>
+                            <div class="form-text">Saisissez le même mot de passe que précédemment, pour vérification.
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">S'inscrire</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 px-0" style="border: 5px solid #d8d0c7;">
+                <!-- Some additional content -->
+            </div>
+        </div>
+    </main>
+{% endblock %}

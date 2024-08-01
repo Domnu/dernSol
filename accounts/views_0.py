@@ -6,10 +6,10 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.http import HttpResponseRedirect, JsonResponse
 from django.shortcuts import redirect, render
 
-from .form_utils import process_form, handle_form_errors  # Import the new utility functions
 from .forms import SignupForm
 from .models import CustomUser
 from .utils import generate_unique_username
+from .form_utils import process_form, handle_form_errors
 
 
 def test_message_view(request):
@@ -26,10 +26,10 @@ def check_username(request):
 
 
 def signup(request):
-    form = process_form(request, SignupForm, "Inscription réussie !", 'chat:index')
-    if isinstance(form, HttpResponseRedirect):
-        return form  # Retourner directement la redirection
-    return render(request, 'accounts/signup.html', {'form': form})
+    response = process_form(request, SignupForm, "Inscription réussie !", 'chat:index')
+    if isinstance(response, HttpResponseRedirect):
+        return response
+    return render(request, 'accounts/signup.html', {'form': response})
 
 
 def login(request):

@@ -275,41 +275,5 @@
                 });
         });
 
-        // Fonction pour afficher le message d'erreur
-        function showMessage(errorMessage) {
-            const messageElement = document.getElementById('error-message');
-            messageElement.textContent = errorMessage;
-            messageElement.style.display = 'block'; // Assurez-vous que l'élément est visible
-
-            // Supprime le message après 5 secondes
-            setTimeout(() => {
-                messageElement.style.display = 'none';
-            }, 5000); // 5000 millisecondes = 5 secondes
-        }
-
-        // Exemple d'utilisation lorsque l'email existe déjà
-        if (emailExists) {
-            showMessage('Cet email existe déjà.');
-        }
-
-        function fadeOut(element) {
-            let op = 1;  // opacité initiale
-            const timer = setInterval(() => {
-                if (op <= 0.1) {
-                    clearInterval(timer);
-                    element.style.display = 'none';
-                }
-                element.style.opacity = op;
-                element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-                op -= op * 0.1;
-            }, 50); // Ajustez pour des effets plus rapides ou plus lents
-        }
-
-        // Utilisez fadeOut au lieu de simplement masquer le message
-        setTimeout(() => {
-            fadeOut(document.getElementById('error-message'));
-        }, 5000); // 5 secondes avant de commencer le fondu
-
-
     </script>
 {% endblock %}

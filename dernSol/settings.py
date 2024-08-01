@@ -1,3 +1,4 @@
+# settings.p
 """
 Django settings for dernSol project.
 
@@ -133,21 +134,24 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+AUTHENTICATION_BACKENDS = [
+    'accounts.backends.EmailOrUsernameBackend',
+    'django.contrib.auth.backends.ModelBackend',
+]
 
-"""
-NB:
-N'oubliez pas que les paramètres des environnements de développement et de production 
-doivent être séparés. Ce code semble plus adapté à l'environnement de développement. 
-N'oubliez pas non plus d'exclure les données sensibles du contrôle de version en 
-utilisant des variables d'environnement ou des fichiers de configuration externes.
-================================================================================
-Définissez une variable d'environnement nommée DJANGO_SECRET_KEY avec une valeur unique et imprévisible. Vous pouvez le faire dans les paramètres des variables d'environnement de votre système d'exploitation ou dans le script de profil de votre shell.
-Dans votre fichier de paramètres Django, utilisez la fonction os.getenv() pour obtenir la valeur de la variable d'environnement DJANGO_SECRET_KEY, comme ceci :
+"""NB: N'oubliez pas que les paramètres des environnements de développement et de production doivent être séparés. Ce 
+code semble plus adapté à l'environnement de développement. N'oubliez pas non plus d'exclure les données sensibles du 
+contrôle de version en utilisant des variables d'environnement ou des fichiers de configuration externes. 
+================================================================================ 
+Définissez une variable 
+d'environnement nommée DJANGO_SECRET_KEY avec une valeur unique et imprévisible. Vous pouvez le faire dans les 
+paramètres des variables d'environnement de votre système d'exploitation ou dans le script de profil de votre shell. 
+Dans votre fichier de paramètres Django, utilisez la fonction os.getenv() pour obtenir la valeur de la variable 
+d'environnement DJANGO_SECRET_KEY, comme ceci :
 
 import os
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
-Enregistrez vos modifications et redémarrez votre serveur de développement Django.
-Rappelez-vous, la variable SECRET_KEY doit être gardée secrète et ne pas être partagée publiquement. Il est également recommandé d'utiliser des valeurs SECRET_KEY différentes pour les environnements de développement et de production.
-"""
+# SECURITY WARNING: keep the secret key used in production secret! SECRET_KEY = os.getenv('DJANGO_SECRET_KEY') 
+Enregistrez vos modifications et redémarrez votre serveur de développement Django. Rappelez-vous, la variable 
+SECRET_KEY doit être gardée secrète et ne pas être partagée publiquement. Il est également recommandé d'utiliser des 
+valeurs SECRET_KEY différentes pour les environnements de développement et de production."""

@@ -4,7 +4,6 @@ from django.contrib.auth import authenticate
 from .models import CustomUser
 from django.contrib.auth.forms import UserCreationForm
 from .utils import generate_unique_username
-from django.utils.safestring import mark_safe
 
 
 class CustomAuthenticationForm(forms.Form):
@@ -38,7 +37,6 @@ class CustomAuthenticationForm(forms.Form):
 
 class SignupForm(UserCreationForm):
     email = forms.EmailField(required=True)
-    suggested_username = forms.CharField(widget=forms.HiddenInput(), required=False)
 
     class Meta:
         model = CustomUser
@@ -48,9 +46,8 @@ class SignupForm(UserCreationForm):
         username = self.cleaned_data.get('username')
         if CustomUser.objects.filter(username=username).exists():
             unique_username = generate_unique_username(username)
-            self.cleaned_data['suggested_username'] = unique_username
             raise forms.ValidationError(
-                mark_safe(f"Ce nom ou pseudo existe déjà. <br>Nous vous suggérons {unique_username}.")
+                f"Ce nom / pseudo existe déjà. Nous vous suggérons {unique_username}."
             )
         return username
 

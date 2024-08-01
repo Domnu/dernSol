@@ -1,0 +1,13 @@
+2024-07-22 21:28:59: == Sync Started by User Command
+2024-07-22 21:28:59: Start only 2 threads, limited by tasks to run
+2024-07-22 21:28:59: ConnectCloned connected to file:///H:/dernSol
+2024-07-22 21:28:59: ConnectCloned connected to file:///H:/dernSol
+2024-07-22 21:28:59: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-22 21:28:59: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-22 21:28:59: Ecrasement 'H:/dernSol/accounts/forms.py' -> 'H:/01_Synchro/dernSol/accounts/forms.py' (2,464)
+2024-07-22 21:28:59: Ecrasement 'H:/dernSol/accounts/__pycache__/forms.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/accounts/__pycache__/forms.cpython-312.pyc' (4,371)
+2024-07-22 21:28:59: Close Modified Folder (mod-time, acl): /accounts/__pycache__
+2024-07-22 21:28:59: Close Modified Folder (mod-time, acl): /accounts
+2024-07-22 21:28:59: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-22 21:29:00: Sauvegarde du fichier d'état H:/01_Synchro/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-22 21:29:00: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, Elements synchronisés : 2, Erreurs : 0

@@ -1,0 +1,16 @@
+2024-07-23 04:20:03: == Sync Started by User Command
+2024-07-23 04:20:03: ConnectCloned connected to file:///H:/dernSol
+2024-07-23 04:20:03: ConnectCloned connected to file:///H:/dernSol
+2024-07-23 04:20:03: ConnectCloned connected to file:///H:/dernSol
+2024-07-23 04:20:03: ConnectCloned connected to file:///~roadn/OneDrive/Python_bakup/dernSol
+2024-07-23 04:20:03: ConnectCloned connected to file:///~roadn/OneDrive/Python_bakup/dernSol
+2024-07-23 04:20:03: ConnectCloned connected to file:///~roadn/OneDrive/Python_bakup/dernSol
+2024-07-23 04:20:03: Ecrasement 'H:/dernSol/accounts/__pycache__/forms.cpython-312.pyc' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/accounts/__pycache__/forms.cpython-312.pyc' (4,608)
+2024-07-23 04:20:03: Close Modified Folder (mod-time, acl): /accounts/__pycache__
+2024-07-23 04:20:03: Ecrasement 'H:/dernSol/.idea/workspace.xml' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/.idea/workspace.xml' (52,252)
+2024-07-23 04:20:03: Close Modified Folder (mod-time, acl): /.idea
+2024-07-23 04:20:03: Ecrasement 'H:/dernSol/accounts/forms.py' -> 'C:/Users/roadn/OneDrive/Python_bakup/dernSol/accounts/forms.py' (2,666)
+2024-07-23 04:20:04: Close Modified Folder (mod-time, acl): /accounts
+2024-07-23 04:20:04: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-23 04:20:04: Sauvegarde du fichier d'état C:/Users/roadn/OneDrive/Python_bakup/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-23 04:20:07: == Sync Complete. Time: 00:00:04, Speed: 0.00/s, Elements synchronisés : 3, Erreurs : 0

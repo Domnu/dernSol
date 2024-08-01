@@ -1,0 +1,38 @@
+2024-07-22 19:16:53: == Sync Started by User Command
+2024-07-22 19:16:53: ConnectCloned connected to file:///H:/dernSol
+2024-07-22 19:16:53: ConnectCloned connected to file:///H:/dernSol
+2024-07-22 19:16:53: ConnectCloned connected to file:///H:/dernSol
+2024-07-22 19:16:53: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-22 19:16:53: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-22 19:16:53: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-22 19:16:53: Nouvelle Copie 'H:/dernSol/.git/objects/0f/7347b8f1750d361b69604d9b180395f374da30' -> 'H:/01_Synchro/dernSol/.git/objects/0f/7347b8f1750d361b69604d9b180395f374da30' (2,513)
+2024-07-22 19:16:53: Suppression du fichier H:/01_Synchro/dernSol/.idea/dataSources/ec946598-a3b6-42a6-9d79-84694906fede/storage_v2/_src_/schema/main.uQUzAA.meta
+2024-07-22 19:16:53: Suppression du fichier H:/01_Synchro/dernSol/.idea/dataSources/ec946598-a3b6-42a6-9d79-84694906fede.xml
+2024-07-22 19:16:53: H:/dernSol/.git/index: Source file has changed between Analyze and Sync from '[file] size=22,450 accu-time=2024-07-22 19:09:00 attr=Archive,WArchive cktype=0' to 'size=22,578 time=2024-07-22 19:16:48', noted in source file state
+2024-07-22 19:16:53: Ecrasement 'H:/dernSol/.git/index' -> 'H:/01_Synchro/dernSol/.git/index' (22,450)
+2024-07-22 19:16:53: Ecrasement 'H:/dernSol/.git/objects/81/93f44382e434fc3833790e7d961ec533b777d8' -> 'H:/01_Synchro/dernSol/.git/objects/81/93f44382e434fc3833790e7d961ec533b777d8' (1,062)
+2024-07-22 19:16:53: Nouvelle Copie 'H:/dernSol/chat/templates/chat/base_generic_0.html' -> 'H:/01_Synchro/dernSol/chat/templates/chat/base_generic_0.html' (2,464)
+2024-07-22 19:16:53: Ecrasement 'H:/dernSol/accounts/__pycache__/views.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/accounts/__pycache__/views.cpython-312.pyc' (2,597)
+2024-07-22 19:16:53: Ecrasement 'H:/dernSol/.idea/workspace.xml' -> 'H:/01_Synchro/dernSol/.idea/workspace.xml' (49,309)
+2024-07-22 19:16:53: Suppression du fichier H:/01_Synchro/dernSol/accounts/templates/accounts/form_cnx_Orig.html
+2024-07-22 19:16:53: Ecrasement 'H:/dernSol/chat/templates/chat/base_generic.html' -> 'H:/01_Synchro/dernSol/chat/templates/chat/base_generic.html' (3,093)
+2024-07-22 19:16:53: Nouvelle Copie 'H:/dernSol/accounts/templates/accounts/signup_0.html' -> 'H:/01_Synchro/dernSol/accounts/templates/accounts/signup_0.html' (6,576)
+2024-07-22 19:16:53: Close Modified Folder (mod-time, acl): /.git/objects/0f
+2024-07-22 19:16:53: Ecrasement 'H:/dernSol/accounts/templates/accounts/signup.html' -> 'H:/01_Synchro/dernSol/accounts/templates/accounts/signup.html' (10,106)
+2024-07-22 19:16:53: Close Modified Folder (mod-time, acl): /.git/objects/81
+2024-07-22 19:16:53: Suppression du dossier H:/01_Synchro/dernSol/.idea/dataSources/ec946598-a3b6-42a6-9d79-84694906fede/storage_v2/_src_/schema
+2024-07-22 19:16:53: Close Modified Folder (mod-time, acl): /accounts/__pycache__
+2024-07-22 19:16:53: Close Modified Folder (mod-time, acl): /chat/templates/chat
+2024-07-22 19:16:53: Close Modified Folder (mod-time, acl): /accounts/templates/accounts
+2024-07-22 19:16:53: Close Modified Folder (mod-time, acl): /.git
+2024-07-22 19:16:53: Suppression du dossier H:/01_Synchro/dernSol/.idea/dataSources/ec946598-a3b6-42a6-9d79-84694906fede/storage_v2/_src_
+2024-07-22 19:16:53: Ecrasement 'H:/dernSol/db.sqlite3' -> 'H:/01_Synchro/dernSol/db.sqlite3' (200,704)
+2024-07-22 19:16:53: Ecrasement 'H:/dernSol/accounts/views.py' -> 'H:/01_Synchro/dernSol/accounts/views.py' (1,682)
+2024-07-22 19:16:53: Close Modified Folder (mod-time, acl): /accounts
+2024-07-22 19:16:53: Suppression du dossier H:/01_Synchro/dernSol/.idea/dataSources/ec946598-a3b6-42a6-9d79-84694906fede/storage_v2
+2024-07-22 19:16:53: Suppression du dossier H:/01_Synchro/dernSol/.idea/dataSources/ec946598-a3b6-42a6-9d79-84694906fede
+2024-07-22 19:16:53: Close Modified Folder (mod-time, acl): /.idea/dataSources
+2024-07-22 19:16:53: Close Modified Folder (mod-time, acl): /.idea
+2024-07-22 19:16:54: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-22 19:16:54: Sauvegarde du fichier d'état H:/01_Synchro/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-22 19:16:54: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, Elements synchronisés : 18, Erreurs : 0

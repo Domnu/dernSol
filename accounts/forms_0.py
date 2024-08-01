@@ -38,11 +38,11 @@ class CustomAuthenticationForm(forms.Form):
 
 class SignupForm(UserCreationForm):
     email = forms.EmailField(required=True)
-    suggested_username = forms.CharField(widget=forms.HiddenInput(), required=False)
+    suggested_username = forms.CharField(required=False, widget=forms.HiddenInput(), initial='')
 
     class Meta:
         model = CustomUser
-        fields = ('username', 'email', 'password1', 'password2')
+        fields = ('username', 'email', 'password1', 'password2', 'suggested_username')
 
     def clean_username(self):
         username = self.cleaned_data.get('username')
@@ -50,7 +50,7 @@ class SignupForm(UserCreationForm):
             unique_username = generate_unique_username(username)
             self.cleaned_data['suggested_username'] = unique_username
             raise forms.ValidationError(
-                mark_safe(f"Ce nom ou pseudo existe déjà. <br>Nous vous suggérons {unique_username}.")
+                mark_safe(f"Ce nom ou pseudo existe déjà. <br>Nous vous suggérons <strong>{unique_username}</strong>.")
             )
         return username
 
@@ -63,7 +63,7 @@ class SignupForm(UserCreationForm):
     def save(self, commit=True):
         user = super(SignupForm, self).save(commit=False)
         user.email = self.cleaned_data['email']
-        user.username = generate_unique_username(self.cleaned_data['username'])
+        user.username = self.cleaned_data.get('suggested_username') or self.cleaned_data['username']
         if commit:
             user.save()
         return user

@@ -1,0 +1,28 @@
+2024-07-22 19:55:48: == Sync Started by User Command
+2024-07-22 19:55:48: ConnectCloned connected to file:///H:/dernSol
+2024-07-22 19:55:48: ConnectCloned connected to file:///H:/dernSol
+2024-07-22 19:55:48: ConnectCloned connected to file:///H:/dernSol
+2024-07-22 19:55:48: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-22 19:55:48: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-22 19:55:48: ConnectCloned connected to file:///H:/01_Synchro/dernSol
+2024-07-22 19:55:49: Ecrasement 'H:/dernSol/accounts/__pycache__/forms.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/accounts/__pycache__/forms.cpython-312.pyc' (3,934)
+2024-07-22 19:55:49: Ecrasement 'H:/dernSol/accounts/views.py' -> 'H:/01_Synchro/dernSol/accounts/views.py' (1,537)
+2024-07-22 19:55:49: Ecrasement 'H:/dernSol/accounts/forms.py' -> 'H:/01_Synchro/dernSol/accounts/forms.py' (2,234)
+2024-07-22 19:55:49: Nouvelle Copie 'H:/dernSol/accounts/templates/accounts/signup-0.html' -> 'H:/01_Synchro/dernSol/accounts/templates/accounts/signup-0.html' (10,106)
+2024-07-22 19:55:49: Ecrasement 'H:/dernSol/accounts/templates/accounts/signup.html' -> 'H:/01_Synchro/dernSol/accounts/templates/accounts/signup.html' (10,106)
+2024-07-22 19:55:49: Ecrasement 'H:/dernSol/accounts/__pycache__/views.cpython-312.pyc' -> 'H:/01_Synchro/dernSol/accounts/__pycache__/views.cpython-312.pyc' (2,300)
+2024-07-22 19:55:49: Close Modified Folder (mod-time, acl): /accounts/templates/accounts
+2024-07-22 19:55:49: Nouvelle Copie 'H:/dernSol/accounts/views_0.py' -> 'H:/01_Synchro/dernSol/accounts/views_0.py' (1,682)
+2024-07-22 19:55:49: Ecrasement 'H:/dernSol/.git/index' -> 'H:/01_Synchro/dernSol/.git/index' (22,770)
+2024-07-22 19:55:49: Close Modified Folder (mod-time, acl): /accounts/__pycache__
+2024-07-22 19:55:49: Close Modified Folder (mod-time, acl): /accounts
+2024-07-22 19:55:49: Nouvelle Copie 'H:/dernSol/.git/objects/a2/a620892321d7b5e24b39a52b843e14c8ee1f5e' -> 'H:/01_Synchro/dernSol/.git/objects/a2/a620892321d7b5e24b39a52b843e14c8ee1f5e' (3,160)
+2024-07-22 19:55:49: Nouvelle Copie 'H:/dernSol/.git/objects/78/27f3cc9f24e61802476be96ed8f95ea45fe1a5' -> 'H:/01_Synchro/dernSol/.git/objects/78/27f3cc9f24e61802476be96ed8f95ea45fe1a5' (382)
+2024-07-22 19:55:49: Nouvelle Copie 'H:/dernSol/.git/objects/11/5f7db4e99aa364dc7dd5055b7842798d7e2db9' -> 'H:/01_Synchro/dernSol/.git/objects/11/5f7db4e99aa364dc7dd5055b7842798d7e2db9' (620)
+2024-07-22 19:55:49: Close Modified Folder (mod-time, acl): /.git/objects/a2
+2024-07-22 19:55:49: Close Modified Folder (mod-time, acl): /.git/objects/78
+2024-07-22 19:55:49: Close Modified Folder (mod-time, acl): /.git/objects/11
+2024-07-22 19:55:49: Close Modified Folder (mod-time, acl): /.git
+2024-07-22 19:55:49: Sauvegarde du fichier d'état H:/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-22 19:55:49: Sauvegarde du fichier d'état H:/01_Synchro/dernSol/_gsdata_/_file_state_v4._gs
+2024-07-22 19:55:50: == Sync Complete. Time: 00:00:02, Speed: 0.00/s, Elements synchronisés : 11, Erreurs : 0

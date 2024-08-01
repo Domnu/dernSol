@@ -1,4 +1,3 @@
-<!-- chat/base_generic.html -->
 {% load static %}
 <!DOCTYPE html>
 <html lang="fr">
@@ -20,17 +19,6 @@
     {% block stylesheet %}{% endblock stylesheet %}
     <style>
         {% block css %}{% endblock css %}
-
-        @keyframes blink {
-            0% { opacity: 1; }
-            50% { opacity: 0; }
-            100% { opacity: 1; }
-        }
-
-        .blinking-message {
-            animation: blink 2s infinite;
-        }
-
     </style>
 </head>
 <body>
@@ -46,21 +34,16 @@
 </header>
 
 <main class="container mt-3 p-2 p-md-4">
-
-    {% if messages %}
-        <ul class="messages text-center" style="background-color: rgba(255,151,6,0.99);
-                                         color: rgb(0,0,0)">
-            {% for message in messages %}
-                <li{% if message.tags %} class="{{ message.tags }}"{% endif %}><h3
-                        class="blinking-message"> {{ message }}</h3></li>
-                {#                <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>..templates&#92;chat&#92;base_generic.html 42</li>#}
-            {% endfor %}
-        </ul>
-    {% endif %}
-
     {% block content %}
         <!-- Contenu dynamique inséré ici -->
     {% endblock %}
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
 
 </main>
 
@@ -71,10 +54,6 @@
             d'utilisation</a></p>
     </div>
 </footer>
-
-{% block js %}
-
-{% endblock js %}
 
 <!-- Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
